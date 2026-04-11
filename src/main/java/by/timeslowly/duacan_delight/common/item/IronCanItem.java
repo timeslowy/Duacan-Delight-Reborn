@@ -1,15 +1,17 @@
 package by.timeslowly.duacan_delight.common.item;
 
-import by.timeslowly.duacan_delight.procedures.OpenIroncanProcedure;
+import by.timeslowly.duacan_delight.registry.DDItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import net.neoforged.neoforge.items.ItemHandlerHelper;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
@@ -26,9 +28,11 @@ public class IronCanItem extends Item {
 	}
 
 	@Override
-	public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level world, @NotNull Player entity, @NotNull InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		OpenIroncanProcedure.execute(entity);
-		return ar;
+	public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level world, @NotNull Player player, @NotNull InteractionHand hand) {
+		ItemStack heldItem = player.getItemInHand(hand);
+		heldItem.shrink(1);
+		ItemHandlerHelper.giveItemToPlayer(player, new ItemStack(DDItems.OPENED_IRON_CAN.get()));
+		ItemHandlerHelper.giveItemToPlayer(player, new ItemStack(Items.IRON_NUGGET));
+		return InteractionResultHolder.sidedSuccess(heldItem, world.isClientSide());
 	}
 }

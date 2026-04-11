@@ -12,6 +12,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class DDItems {
     public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems( Duacan_delight.MOD_ID);
+    // TODO: 1.将此处所有物品注册项按照创造模式标签页的顺序排列/或者更简单按照首字母顺序排序
 
     // 纯物品
 

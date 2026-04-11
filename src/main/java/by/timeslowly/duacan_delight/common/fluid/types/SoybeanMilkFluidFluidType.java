@@ -11,6 +11,7 @@ import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtension
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.common.SoundActions;
 import net.neoforged.neoforge.fluids.FluidType;
+import org.jetbrains.annotations.NotNull;
 
 @EventBusSubscriber(modid = Duacan_delight.MOD_ID)
 public class SoybeanMilkFluidFluidType extends FluidType {
@@ -20,18 +21,18 @@ public class SoybeanMilkFluidFluidType extends FluidType {
 	}
 
 	@SubscribeEvent
-	public static void registerFluidTypeExtensions(RegisterClientExtensionsEvent event) {
+	public static void registerFluidTypeExtensions(@NotNull RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
 			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("duacan_delight:block/jing_zhi_dou_jiang_");
 			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("duacan_delight:block/liu_dong_dou_jiang_1");
 
 			@Override
-			public ResourceLocation getStillTexture() {
+			public @NotNull ResourceLocation getStillTexture() {
 				return STILL_TEXTURE;
 			}
 
 			@Override
-			public ResourceLocation getFlowingTexture() {
+			public @NotNull ResourceLocation getFlowingTexture() {
 				return FLOWING_TEXTURE;
 			}
 		}, DDFluidTypes.SOYBEAN_MILK_FLUID_TYPE.get());
