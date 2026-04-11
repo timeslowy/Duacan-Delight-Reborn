@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "duacan_delight:block/chinesewolfberry_leaves",
+    "particle": "duacan_delight:block/chinesewolfberry_leaves"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 250,
+      "fluid": "extradelight:oil_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "duacan_delight:fried_grated_garlic"
+    },
+    {
+      "item": "barbequesdelight:pepper_powder"
+    },
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "item": "casualness_delight:capsicum"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "tag": "c:condiments/soy_sauce"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:minced_garlic_sauce"
+  },
+  "stirs": 6,
+  "utensil": {
+    "tag": "c:spoons"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 2,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "duacan_delight:raw_minced_garlic_oyster"
+  },
+  "result": {
+    "id": "duacan_delight:roasted_minced_garlic_oyster"
+  }
+}

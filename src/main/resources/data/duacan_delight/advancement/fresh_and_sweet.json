@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:clam_tofu_soup"
+    },
+    "title": {
+      "translate": "advancements.fresh_and_sweet.title"
+    },
+    "description": {
+      "translate": "advancements.fresh_and_sweet.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fresh_and_sweet_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:clam_tofu_soup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

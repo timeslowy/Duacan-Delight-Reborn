@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:smallintestine_tofu_soup"
+    },
+    "title": {
+      "translate": "advancements.warm_stomach.title"
+    },
+    "description": {
+      "translate": "advancements.warm_stomach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "warm_stomach_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_tofu_soup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

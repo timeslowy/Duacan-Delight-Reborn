@@ -1,0 +1,10 @@
+{
+  "type": "extradelight:dough_shaping",
+  "ingredient": {
+    "item": "duacan_delight:boiled_digua_powder_dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:wet_fensi"
+  }
+}

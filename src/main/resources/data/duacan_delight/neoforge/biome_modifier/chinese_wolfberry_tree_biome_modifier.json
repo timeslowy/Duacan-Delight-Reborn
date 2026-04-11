@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "plains",
+  "features": "duacan_delight:chinese_wolfberry_tree",
+  "step": "vegetal_decoration"
+}

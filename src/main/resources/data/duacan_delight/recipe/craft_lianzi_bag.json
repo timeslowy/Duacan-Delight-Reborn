@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:lianzi_bag",
+    "count": 1
+  }
+}

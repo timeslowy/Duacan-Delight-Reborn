@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:gaicai_crate"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:gaicai",
+    "count": 9
+  }
+}

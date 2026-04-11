@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "duacan_delight:item/kai_de_tie_pi_guan_tou_"
+  }
+}

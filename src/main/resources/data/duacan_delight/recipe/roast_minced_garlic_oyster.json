@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "duacan_delight:raw_minced_garlic_oyster"
+  },
+  "result": {
+    "id": "duacan_delight:roasted_minced_garlic_oyster"
+  }
+}

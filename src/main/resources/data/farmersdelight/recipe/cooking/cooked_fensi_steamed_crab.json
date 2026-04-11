@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "duacan_delight:fensi"
+    },
+    {
+      "item": "crabbersdelight:crab"
+    },
+    {
+      "tag": "c:condiments/soy_sauce"
+    },
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "item": "extradelight:grated_ginger"
+    },
+    {
+      "item": "extradelight:grated_garlic"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:fensi_steamed_crab"
+  },
+  "container": {
+    "count": 1,
+    "id": "cuisinedelight:plate"
+  }
+}

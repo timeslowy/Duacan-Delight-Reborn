@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {},
+  "grinds": 12,
+  "ingredient": {
+    "item": "duacan_delight:xiancao_leaf"
+  },
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:xiancao_powder"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "duacan_delight:wet_mifen_dough"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "duacan_delight:rice_milk"
+  },
+  "stirs": 12,
+  "utensil": {
+    "tag": "c:spoons"
+  },
+  "container": {
+    "count": 3,
+    "id": "minecraft:bowl"
+  }
+}

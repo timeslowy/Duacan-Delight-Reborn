@@ -1,0 +1,13 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "category": "food",
+  "cookingtime": 50,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "duacan_delight:tofu"
+  },
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:fried_tofu"
+  }
+}

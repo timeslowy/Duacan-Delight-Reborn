@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:lianzi"
+    },
+    {
+      "item": "duacan_delight:tremella"
+    },
+    {
+      "item": "duacan_delight:adazi"
+    },
+    {
+      "item": "duacan_delight:xiancaodong"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:siguoteng"
+  }
+}

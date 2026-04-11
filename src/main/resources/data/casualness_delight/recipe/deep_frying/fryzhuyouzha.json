@@ -1,0 +1,13 @@
+{
+    "type": "casualness_delight:deep_frying",
+    "ingredient": [
+      {
+        "item": "farmersdelight:bacon"
+      }
+    ],
+    "cookingtime": 200,
+    "result": {
+      "id":"duacan_delight:youzha"
+    }
+  }
+  

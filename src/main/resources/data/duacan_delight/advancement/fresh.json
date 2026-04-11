@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:chicken_consomme"
+    },
+    "title": {
+      "translate": "advancements.fresh.title"
+    },
+    "description": {
+      "translate": "advancements.fresh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fresh_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:chicken_consomme"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:university_of_mianxian"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "duacan_delight:cassia_seed"
+  },
+  "result": {
+    "id": "duacan_delight:fired_cassia_seed"
+  }
+}

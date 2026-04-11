@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "duacan_delight:mianxian"
+    },
+    {
+      "item": "extradelight:soy_sauce_item"
+    },
+    {
+      "item": "duacan_delight:raw_cuma"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "extradelight:cooking_oil"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "duacan_delight:russula_mianxian"
+  },
+  "container": {
+    "count": 2,
+    "id": "minecraft:bowl"
+  }
+}

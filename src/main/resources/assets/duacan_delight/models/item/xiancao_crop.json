@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "duacan_delight:block/xiancao/xiancao_stage_3"
+  }
+}

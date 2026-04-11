@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "duacan_delight:sliced_suancai"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "item": "dumplings_delight:garlic_clove"
+    },
+    {
+      "item": "extradelight:sliced_ginger"
+    },
+    {
+      "item": "duacan_delight:sliced_bambooshoot"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:braised_bambooshoot_with_suancai"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  }
+}

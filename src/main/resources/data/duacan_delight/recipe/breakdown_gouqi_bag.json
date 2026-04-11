@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:chinese_wolfberry_bag"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:chinese_wolfberry",
+    "count": 9
+  }
+}

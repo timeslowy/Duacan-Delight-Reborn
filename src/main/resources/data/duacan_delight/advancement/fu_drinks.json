@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:siguoteng"
+    },
+    "title": {
+      "translate": "advancements.fu_drinks.title"
+    },
+    "description": {
+      "translate": "advancements.fu_drinks.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fu_drinks_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:siguoteng"
+          ]
+        }
+      }
+    },
+    "fu_drinks_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:vegetable_juice"
+          ]
+        }
+      }
+    },
+    "fu_drinks_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:oil_cut_wheat_tea"
+          ]
+        }
+      }
+    },
+    "fu_drinks_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:xiancaodong"
+          ]
+        }
+      }
+    },
+    "fu_drinks_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:peanuts_milk"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:heroinsummer"
+}

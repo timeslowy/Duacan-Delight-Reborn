@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "duacan_delight:item/xiang_gu_rou_jiang_guan_tou_"
+  }
+}

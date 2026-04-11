@@ -1,0 +1,47 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "duacan_delight:raw_oyster_meat"
+    },
+    {
+      "item": "spmreborn:potato_powder"
+    },
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "tag": "c:condiments/soy_sauce"
+    },
+    {
+      "item": "dumplings_delight:garlic_clove"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "extradelight:grated_ginger"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:raw_eajian"
+  },
+  "stirs": 15,
+  "utensil": {
+    "tag": "c:spoons"
+  },
+  "container": {
+    "count": 1,
+    "id": "cuisinedelight:plate"
+  }
+}

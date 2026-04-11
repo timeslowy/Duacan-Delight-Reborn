@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:youzha"
+    },
+    "title": {
+      "translate": "advancements.frieddelicious.title"
+    },
+    "description": {
+      "translate": "advancements.frieddelicious.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frieddelicious_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "duacan_delight:youzha"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

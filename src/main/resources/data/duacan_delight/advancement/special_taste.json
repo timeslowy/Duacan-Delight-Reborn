@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:smallintestine_kucai_soup"
+    },
+    "title": {
+      "translate": "advancements.special_taste.title"
+    },
+    "description": {
+      "translate": "advancements.special_taste.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "special_taste_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_kucai_soup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:warm_stomach"
+}

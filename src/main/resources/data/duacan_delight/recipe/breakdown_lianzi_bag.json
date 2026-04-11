@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:lianzi_bag"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:lianzi",
+    "count": 9
+  }
+}

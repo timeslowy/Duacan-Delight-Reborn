@@ -1,0 +1,22 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "spmreborn:potato_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:digua_powder_dough"
+  },
+  "stirs": 6,
+  "utensil": {
+    "tag": "c:spoons"
+  }
+}

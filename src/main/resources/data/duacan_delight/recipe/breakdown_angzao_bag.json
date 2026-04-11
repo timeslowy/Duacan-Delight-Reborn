@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:monascus_bag"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:monascus",
+    "count": 9
+  }
+}

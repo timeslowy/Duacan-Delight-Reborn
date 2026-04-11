@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:beef_soup"
+    },
+    "title": {
+      "translate": "advancements.howdelicious.title"
+    },
+    "description": {
+      "translate": "advancements.howdelicious.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "howdelicious_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "duacan_delight:beef_soup"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

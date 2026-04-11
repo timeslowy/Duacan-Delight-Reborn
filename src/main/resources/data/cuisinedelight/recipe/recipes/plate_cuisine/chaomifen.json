@@ -1,0 +1,53 @@
+{
+    "type": "cuisinedelight:plate_cuisine",
+    "holderItem": "duacan_delight:cooked_mifen",
+    "list": [
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "duacan_delight:mifen"
+        },
+        "max": 2.0,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        "max": 2.0,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "tag": "c:salt"
+        },
+        "max": 2.0,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "extradelight:grated_carrot"
+        },
+        "max": 2.0,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "farmersdelight:bacon"
+        },
+        "max": 2.0,
+        "min": 0.2,
+        "score": 1.0
+      }
+    ],
+    "saturationBonus": 0.0,
+    "saturationBonusModifier": 0.0
+  }

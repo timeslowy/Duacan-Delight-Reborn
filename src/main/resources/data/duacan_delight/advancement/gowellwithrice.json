@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:braised_bambooshoot_with_suancai"
+    },
+    "title": {
+      "translate": "advancements.gowellwithrice.title"
+    },
+    "description": {
+      "translate": "advancements.gowellwithrice.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gowellwithrice_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "duacan_delight:braised_bambooshoot_with_suancai"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "duacan_delight:getbamboospaling"
+}

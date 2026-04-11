@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:xifan"
+    },
+    {
+      "item": "duacan_delight:mushroom_meat_sauce"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:xifan_with_mushroom_meat_sauce",
+    "count": 1
+  }
+}

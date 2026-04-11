@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:giteng_mianxian"
+    },
+    "title": {
+      "translate": "advancements.classical.title"
+    },
+    "description": {
+      "translate": "advancements.classical.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "classical_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "duacan_delight:giteng_mianxian"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "duacan_delight:fresh"
+}

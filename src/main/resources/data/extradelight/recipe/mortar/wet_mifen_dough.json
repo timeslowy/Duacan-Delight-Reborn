@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {},
+  "grinds": 15,
+  "ingredient": {
+    "item": "duacan_delight:wetrice"
+  },
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:wet_mifen_dough"
+  }
+}

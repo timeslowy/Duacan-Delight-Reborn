@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:godonggui"
+    },
+    "title": {
+      "translate": "advancements.small_duacan.title"
+    },
+    "description": {
+      "translate": "advancements.small_duacan.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "small_duacan_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:godonggui"
+          ]
+        }
+      }
+    },
+    "small_duacan_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:wuling_roast_rabbit"
+          ]
+        }
+      }
+    },
+    "small_duacan_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_kucai_soup"
+          ]
+        }
+      }
+    },
+    "small_duacan_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_tofu_soup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:special_taste"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "duacan_delight:block/kucai/kucai_stage1",
+    "particle": "duacan_delight:block/kucai/kucai_stage1"
+  },
+  "render_type": "cutout"
+}

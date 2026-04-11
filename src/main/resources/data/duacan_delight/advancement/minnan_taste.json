@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:cuma"
+    },
+    "title": {
+      "translate": "advancements.minnan_taste.title"
+    },
+    "description": {
+      "translate": "advancements.minnan_taste.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minnan_taste_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:zhujioaganfan"
+          ]
+        }
+      }
+    },
+    "minnan_taste_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:beef_soup"
+          ]
+        }
+      }
+    },
+    "minnan_taste_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:xianfan"
+          ]
+        }
+      }
+    },
+    "minnan_taste_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:laver_pork_soup"
+          ]
+        }
+      }
+    },
+    "minnan_taste_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:pig_liver_soup"
+          ]
+        }
+      }
+    },
+    "minnan_taste_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:cooked_mifen"
+          ]
+        }
+      }
+    },
+    "minnan_taste_6": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:cuma"
+          ]
+        }
+      }
+    },
+    "minnan_taste_7": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:eajian"
+          ]
+        }
+      }
+    },
+    "minnan_taste_8": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:eajian_tomato_sauce"
+          ]
+        }
+      }
+    },
+    "minnan_taste_9": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:russula_mianxian"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:together_eat"
+}

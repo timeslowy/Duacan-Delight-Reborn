@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:midenggui"
+    },
+    "title": {
+      "translate": "advancements.various_rice_snack.title"
+    },
+    "description": {
+      "translate": "advancements.various_rice_snack.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "various_rice_snack_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "duacan_delight:midenggui"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

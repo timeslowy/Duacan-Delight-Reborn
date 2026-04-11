@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "age=0": { "model": "duacan_delight:block/gaicai/gaicai_crop_stage0" },
+    "age=1": { "model": "duacan_delight:block/gaicai/gaicai_crop_stage1" },
+    "age=2": { "model": "duacan_delight:block/gaicai/gaicai_crop_stage2" }
+  }
+}

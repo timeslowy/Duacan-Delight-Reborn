@@ -1,0 +1,32 @@
+{
+  "type": "extradelight:vat",
+  "fluids": {
+    "amount": 500,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "duacan_delight:monascus"
+  },
+  "stage_ingredients": [
+    {
+      "ingredient": {
+        "item": "duacan_delight:monascus"
+      },
+      "lid": true,
+      "time": 96000
+    }
+  ],
+  "stages": 1
+}

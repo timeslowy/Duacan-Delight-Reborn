@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {
+    "amount": 100,
+    "id": "teastory:cucumber_juice"
+  },
+  "grinds": 10,
+  "ingredient": {
+    "tag": "c:crops/cucumber"
+  },
+  "result": {}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "duacan_delight:blocks/chinese_wolfberry_treesapling",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "duacan_delight:chinese_wolfberry_treesapling"
+        }
+      ]
+    }
+  ]
+}

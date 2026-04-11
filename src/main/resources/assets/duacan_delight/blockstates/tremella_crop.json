@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "age=0": { "model": "duacan_delight:block/tremella/tremella_crop_stage0" },
+    "age=1": { "model": "duacan_delight:block/tremella/tremella_crop_stage1" }
+  }
+}

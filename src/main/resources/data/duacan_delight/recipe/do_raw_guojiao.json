@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:cooked_mifen_dough"
+    },
+    {
+      "item": "duacan_delight:dried_sliced_bambooshoot"
+    },
+    {
+      "tag": "c:condiments/soy_sauce"
+    },
+    {
+      "item": "duacan_delight:sliced_suancai"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "extradelight:cooking_oil"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:raw_guojiao",
+    "count": 5
+  }
+}

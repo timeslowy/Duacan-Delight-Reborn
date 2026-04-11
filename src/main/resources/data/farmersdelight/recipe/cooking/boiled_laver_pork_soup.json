@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "duacan_delight:dried_laver"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "item": "extradelight:cooking_oil"
+    },
+    {
+      "item": "duacan_delight:raw_cuma"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "duacan_delight:laver_pork_soup"
+  },
+  "container": {
+    "count": 2,
+    "id": "minecraft:bowl"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/barrel_bottom",
+    "up": "duacan_delight:block/xiang_zhuang_ku_cai_ding_mian_",
+    "north": "duacan_delight:block/xiang_zhuang_ku_cai_ce_mian_",
+    "east": "duacan_delight:block/xiang_zhuang_ku_cai_ce_mian_",
+    "south": "duacan_delight:block/xiang_zhuang_ku_cai_ce_mian_",
+    "west": "duacan_delight:block/xiang_zhuang_ku_cai_ce_mian_",
+    "particle": "minecraft:block/barrel_bottom"
+  },
+  "render_type": "solid"
+}

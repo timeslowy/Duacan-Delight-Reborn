@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "duacan_delight:chopsticks"
+    },
+    "b": {
+      "item": "farmersdelight:wheat_dough"
+    }
+  },
+  "result": {
+    "id": "duacan_delight:wet_mianxian",
+    "count": 1
+  }
+}

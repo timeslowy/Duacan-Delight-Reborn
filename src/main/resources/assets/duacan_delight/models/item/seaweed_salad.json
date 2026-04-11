@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "duacan_delight:item/liang_ban_hai_dai_si_"
+  }
+}

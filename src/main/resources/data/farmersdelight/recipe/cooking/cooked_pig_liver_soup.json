@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "duacan_delight:zhuafen_pig_liver"
+    },
+    {
+      "item": "extradelight:sliced_ginger"
+    },
+    {
+      "item": "extradelight:cooking_oil"
+    },
+    {
+      "item": "barbequesdelight:pepper_powder"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:pig_liver_soup"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  }
+}

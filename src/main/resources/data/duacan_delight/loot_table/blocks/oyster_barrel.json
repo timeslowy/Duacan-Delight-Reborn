@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "duacan_delight:blocks/oyster_barrel",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "duacan_delight:oyster_barrel"
+        }
+      ]
+    }
+  ]
+}

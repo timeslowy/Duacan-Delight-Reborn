@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "extradelight:soy_milk"
+    },
+    {
+      "item": "extradelight:soy_milk"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:soybean_milk_fluid_bucket",
+    "count": 1
+  }
+}

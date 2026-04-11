@@ -1,0 +1,12 @@
+{
+    "type": "extradelight:drying_rack",
+    "cookingtime": 2000,
+    "experience": 10.0,
+    "ingredient": {
+      "item": "duacan_delight:wet_fensi"
+    },
+    "result": {
+      "count": 1,
+      "id": "duacan_delight:fensi"
+    }
+  }

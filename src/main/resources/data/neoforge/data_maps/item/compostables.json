@@ -1,0 +1,31 @@
+{
+  "values": {
+    "duacan_delight:gaicai_seeds": {
+      "chance": 0.3
+    },
+    "duacan_delight:tremella_spore": {
+      "chance": 0.3
+    },
+    "duacan_delight:gaicai": {
+      "chance": 0.65
+    },
+    "duacan_delight:suancai": {
+      "chance": 0.85
+    },
+    "duacan_delight:cassia_seed": {
+      "chance": 0.3
+    },
+    "duacan_delight:chinese_wolfberry": {
+      "chance": 0.3
+    },
+    "duacan_delight:sliced_sweet_potato": {
+      "chance": 0.4
+    },
+    "duacan_delight:kucai_seeds": {
+      "chance": 0.3
+    },
+    "duacan_delight:laver": {
+      "chance": 0.3
+    }
+  }
+}

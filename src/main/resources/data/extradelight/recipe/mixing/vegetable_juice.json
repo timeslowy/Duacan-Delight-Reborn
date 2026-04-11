@@ -1,0 +1,49 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:water"
+    },
+    {
+      "amount": 250,
+      "fluid": "teastory:cucumber_juice"
+    },
+    {
+      "amount": 250,
+      "fluid": "teastory:sugar_cane_juice"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "expandeddelight:asparagus"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:vegetable_juice"
+  },
+  "stirs": 8,
+  "utensil": {
+    "tag": "c:spoons"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bucket"
+  }
+}

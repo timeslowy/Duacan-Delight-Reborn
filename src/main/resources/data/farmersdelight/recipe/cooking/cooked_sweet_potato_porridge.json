@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "duacan_delight:wetrice"
+    },
+    {
+      "item": "duacan_delight:sliced_sweet_potato"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "duacan_delight:sweet_potato_porridge"
+  },
+  "container": {
+    "count": 2,
+    "id": "minecraft:bowl"
+  }
+}

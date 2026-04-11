@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    },
+    {
+      "item": "duacan_delight:chinese_wolfberry"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:chinese_wolfberry_bag",
+    "count": 1
+  }
+}

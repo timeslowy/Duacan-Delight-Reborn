@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:minced_garlic_sauce"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:raw_minced_garlic_oyster",
+    "count": 1
+  }
+}

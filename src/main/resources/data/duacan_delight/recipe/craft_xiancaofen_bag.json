@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    },
+    {
+      "item": "duacan_delight:xiancao_powder"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:xiancao_powder_bag",
+    "count": 1
+  }
+}

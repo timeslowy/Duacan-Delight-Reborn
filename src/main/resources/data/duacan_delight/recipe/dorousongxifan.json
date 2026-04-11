@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:xifan"
+    },
+    {
+      "item": "duacan_delight:rousong"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:rousongxifan",
+    "count": 1
+  }
+}

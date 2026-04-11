@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "duacan_delight:opened_iron_can"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:iron_can",
+    "count": 1
+  }
+}

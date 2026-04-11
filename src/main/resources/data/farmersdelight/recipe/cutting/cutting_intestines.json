@@ -1,0 +1,39 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "butchercraft:tripe"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:pig_small_intestine"
+        }
+      },
+      {
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:pig_large_intestine"
+        }
+      },
+      {
+        "chance": 0.25,
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:pig_large_intestine"
+        }
+      },
+      {
+        "chance": 0.75,
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:pig_small_intestine"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

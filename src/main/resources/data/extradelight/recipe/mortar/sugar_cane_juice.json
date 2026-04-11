@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {
+    "amount": 100,
+    "id": "teastory:sugar_cane_juice"
+  },
+  "grinds": 10,
+  "ingredient": {
+    "item": "minecraft:sugar_cane"
+  },
+  "result": {}
+}

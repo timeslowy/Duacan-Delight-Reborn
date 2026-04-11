@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:chicken_consomme"
+    },
+    "title": {
+      "translate": "advancements.soup_with_hokkien.title"
+    },
+    "description": {
+      "translate": "advancements.soup_with_hokkien.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soup_with_hokkien_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:beef_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:siguoteng"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:chicken_consomme"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_kucai_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:clam_tofu_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:laver_pork_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_6": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:kelp_tofu_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_7": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:laver_egg_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_8": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:smallintestine_tofu_soup"
+          ]
+        }
+      }
+    },
+    "soup_with_hokkien_9": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:pig_liver_soup"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:classical"
+}

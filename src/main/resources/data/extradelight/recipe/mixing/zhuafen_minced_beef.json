@@ -1,0 +1,25 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "spmreborn:potato_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:zhuafen_minced_beef"
+  },
+  "stirs": 6,
+  "utensil": {
+    "tag": "c:spoons"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "casualness_delight:deep_frying",
+  "category": "food",
+  "cookingtime": 150,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "duacan_delight:raw_cuma"
+  },
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:cuma"
+  }
+}

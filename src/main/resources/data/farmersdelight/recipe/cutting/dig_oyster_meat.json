@@ -1,0 +1,25 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "duacan_delight:oyster"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:oyster_shell"
+        }
+      },
+      {
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:raw_oyster_meat"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

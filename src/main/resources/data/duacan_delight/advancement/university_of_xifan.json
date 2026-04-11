@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:xifan"
+    },
+    "title": {
+      "translate": "advancements.university_of_xifan.title"
+    },
+    "description": {
+      "translate": "advancements.university_of_xifan.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "university_of_xifan_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:xifan"
+          ]
+        }
+      }
+    },
+    "university_of_xifan_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:rousongxifan"
+          ]
+        }
+      }
+    },
+    "university_of_xifan_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:sweet_potato_porridge"
+          ]
+        }
+      }
+    },
+    "university_of_xifan_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:xifan_with_mushroom_meat_sauce"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:wetrice_1"
+}

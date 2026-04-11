@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "extradelight:vinegar"
+    },
+    {
+      "item": "duacan_delight:rice_milk"
+    },
+    {
+      "item": "duacan_delight:chopped_greenonion"
+    },
+    {
+      "item": "extradelight:cooking_oil"
+    },
+    {
+      "item": "duacan_delight:fried_grated_garlic"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:godonggui"
+  }
+}

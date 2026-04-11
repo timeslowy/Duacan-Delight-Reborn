@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "duacan_delight:gaicai"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 5,
+          "id": "duacan_delight:gaicai_leaf"
+        }
+      },
+      {
+        "chance": 0.7,
+        "item": {
+          "count": 2,
+          "id": "duacan_delight:gaicai_leaf"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

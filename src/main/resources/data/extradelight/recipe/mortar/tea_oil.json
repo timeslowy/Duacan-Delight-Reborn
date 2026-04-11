@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {
+    "amount": 50,
+    "id": "duacan_delight:teaoil_fluid"
+  },
+  "grinds": 18,
+  "ingredient": {
+    "item": "teastory:tea_seeds"
+  },
+  "result": {}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "duacan_delight:item/da_chang_chao_suan_cai_"
+  }
+}

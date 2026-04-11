@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "duacan_delight:zhujiao"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 6,
+          "id": "duacan_delight:sliced_zhujiao"
+        }
+      },
+      {
+        "chance": 0.3,
+        "item": {
+          "count": 1,
+          "id": "duacan_delight:sliced_zhujiao"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

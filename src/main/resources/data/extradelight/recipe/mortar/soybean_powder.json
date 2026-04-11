@@ -1,0 +1,12 @@
+{
+  "type": "extradelight:mortar",
+  "fluidOut": {},
+  "grinds": 15,
+  "ingredient": {
+    "tag": "c:crops/soybean"
+  },
+  "result": {
+    "count": 4,
+    "id": "duacan_delight:soybean_powder"
+  }
+}

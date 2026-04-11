@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "type": "butchercraft:meat_hook",
+  "carcass": {
+    "item": "butchercraft:pig_carcass"
+  },
+  "jei": [
+    {
+      "item": "duacan_delight:zhujiao"
+    }
+  ],
+  "tools":[
+   {
+      "loot_table": "duacan_delight:meat_hook/butcher_pig",
+      "tool": {
+        "item": "butchercraft:butcher_knife"
+      },
+      "uses": 12
+    }
+  ]
+}

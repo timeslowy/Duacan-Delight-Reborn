@@ -1,0 +1,11 @@
+{
+  "type": "barbequesdelight:grilling",
+  "barbecuingTime": 1000,
+  "ingredient": {
+    "item": "duacan_delight:raw_minced_garlic_oyster"
+  },
+  "output": {
+    "count": 1,
+    "id": "duacan_delight:roasted_minced_garlic_oyster"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "crabbersdelight:clawster"
+    },
+    {
+      "item": "duacan_delight:minced_garlic_sauce"
+    },
+    {
+      "item": "duacan_delight:fensi"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:fensi_steamed_clawster"
+  },
+  "container": {
+    "count": 1,
+    "id": "cuisinedelight:plate"
+  }
+}

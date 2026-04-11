@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:oil_cut_wheat_tea"
+    },
+    "title": {
+      "translate": "advancements.better_choice_summer.title"
+    },
+    "description": {
+      "translate": "advancements.better_choice_summer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "better_choice_summer_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:oil_cut_wheat_tea"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:duacandelicious"
+}

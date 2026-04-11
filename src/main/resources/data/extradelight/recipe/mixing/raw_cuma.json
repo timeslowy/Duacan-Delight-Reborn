@@ -1,0 +1,33 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    },
+    {
+      "amount": 250,
+      "fluid": "extradelight:vinegar_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "item": "spmreborn:potato_powder"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:raw_cuma"
+  },
+  "stirs": 8,
+  "utensil": {
+    "tag": "c:spoons"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  }
+}

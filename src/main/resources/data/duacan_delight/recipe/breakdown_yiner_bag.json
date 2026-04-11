@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:tremella_bag"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:tremella",
+    "count": 9
+  }
+}

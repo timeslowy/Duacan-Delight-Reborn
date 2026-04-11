@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    },
+    {
+      "item": "duacan_delight:yimi"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:yimi_bag",
+    "count": 1
+  }
+}

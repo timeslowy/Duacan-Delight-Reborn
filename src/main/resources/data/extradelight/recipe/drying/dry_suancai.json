@@ -1,0 +1,12 @@
+{
+    "type": "extradelight:drying_rack",
+    "cookingtime": 1500,
+    "experience": 10.0,
+    "ingredient": {
+      "item": "duacan_delight:suancai"
+    },
+    "result": {
+      "count": 1,
+      "id": "duacan_delight:dried_suancai"
+    }
+  }

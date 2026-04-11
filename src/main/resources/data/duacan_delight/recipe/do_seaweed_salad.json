@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:condiments/soy_sauce"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "casualness_delight:capsicum"
+    },
+    {
+      "item": "dumplings_delight:garlic_clove"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:seaweed_salad",
+    "count": 1
+  }
+}

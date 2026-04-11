@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:soybean_milk_fluid_bucket"
+    },
+    {
+      "item": "expandeddelight:salt"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:tofu",
+    "count": 6
+  }
+}

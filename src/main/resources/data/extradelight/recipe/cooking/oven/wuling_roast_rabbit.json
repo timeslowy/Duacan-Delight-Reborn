@@ -1,0 +1,31 @@
+{
+  "type": "extradelight:oven",
+  "consumeContainer": false,
+  "container": {
+    "count": 1,
+    "id": "extradelight:tray"
+  },
+  "cookingtime": 2000,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "duacan_delight:monascus"
+    },
+    {
+      "item": "duacan_delight:bottle_of_teaoil"
+    },
+    {
+      "tag": "c:salt"
+    },
+    {
+      "item": "duacan_delight:chinese_angelica"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:wuling_roast_rabbit"
+  }
+}

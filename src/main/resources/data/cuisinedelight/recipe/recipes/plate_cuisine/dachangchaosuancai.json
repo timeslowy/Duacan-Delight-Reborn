@@ -1,0 +1,62 @@
+{
+    "type": "cuisinedelight:plate_cuisine",
+    "holderItem": "duacan_delight:dachangchaosuancai",
+    "list": [
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "duacan_delight:sliced_suancai"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "duacan_delight:pig_large_intestine"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "tag": "c:salt"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "extradelight:sliced_ginger"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "casualness_delight:capsicum"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      },
+      {
+        "bonus": 0.1,
+        "ingredient": {
+          "item": "dumplings_delight:garlic_clove"
+        },
+        "max": 1.8,
+        "min": 0.2,
+        "score": 1.0
+      }
+    ],
+    "saturationBonus": 0.0,
+    "saturationBonusModifier": 0.0
+  }

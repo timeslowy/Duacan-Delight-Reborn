@@ -1,0 +1,30 @@
+{
+  "type": "extradelight:vat",
+  "fluids": {
+    "amount": 500,
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "duacan_delight:rice_wine"
+  },
+  "stage_ingredients": [
+    {
+      "ingredient": {
+        "item": "extradelight:yeast"
+      },
+      "lid": true,
+      "time": 72000
+    }
+  ],
+  "stages": 1,
+  "usedItem": {
+    "count": 2,
+    "id": "minecraft:glass_bottle"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    },
+    {
+      "item": "duacan_delight:oyster"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:oyster_barrel",
+    "count": 1
+  }
+}

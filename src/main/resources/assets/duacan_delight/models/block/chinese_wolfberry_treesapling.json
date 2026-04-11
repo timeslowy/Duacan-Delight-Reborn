@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "duacan_delight:block/gou_qi_shu_miao_",
+    "particle": "duacan_delight:block/gou_qi_shu_miao_"
+  },
+  "render_type": "cutout"
+}

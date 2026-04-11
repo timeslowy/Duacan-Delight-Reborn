@@ -1,0 +1,199 @@
+{"entries": [
+    {
+      "type": "NONE",
+      "effects": [],
+      "ingredient": {
+        "tag": "c:salt"
+      },
+      "max_time": 3000,
+      "min_time": 1000,
+      "nutrition": 0,
+      "overcook_penalty": 0.1,
+      "raw_penalty": 0.1,
+      "size": 0,
+      "stir_time": 120
+    },
+    {
+      "type": "NONE",
+      "effects": [],
+      "ingredient": {
+        "item": "casualness_delight:capsicum"
+      },
+      "max_time": 300,
+      "min_time": 60,
+      "nutrition": 1,
+      "overcook_penalty": 0.1,
+      "raw_penalty": 0.1,
+      "size": 0,
+      "stir_time": 60
+    },
+    {
+        "type": "NONE",
+        "effects": [],
+        "ingredient": {
+          "item": "dumplings_delight:garlic_clove"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "VEG",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:sliced_suancai"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "MEAT",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:pig_large_intestine"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "NONE",
+        "effects": [],
+        "ingredient": {
+          "item": "extradelight:sliced_ginger"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "MEAT",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:sliced_zhujiao"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 2,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 2,
+        "stir_time": 60
+      },
+      {
+        "type": "NONE",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:chopped_greenonion"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 0,
+        "stir_time": 60
+      },
+      {
+        "type": "VEG",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:sliced_bambooshoot"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "VEG",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:dried_sliced_bambooshoot"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "MEAT",
+        "effects": [],
+        "ingredient": {
+          "item": "farmersdelight:cooked_bacon"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "VEG",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:gaicai_leaf"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      },
+      {
+        "type": "CARB",
+        "effects": [],
+        "ingredient": {
+          "item": "duacan_delight:mifen"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 2,
+        "stir_time": 60
+      },
+      {
+        "type": "VEG",
+        "effects": [],
+        "ingredient": {
+          "item": "extradelight:grated_carrot"
+        },
+        "max_time": 300,
+        "min_time": 60,
+        "nutrition": 1,
+        "overcook_penalty": 0.1,
+        "raw_penalty": 0.1,
+        "size": 1,
+        "stir_time": 60
+      }
+  ]
+  }

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "duacan_delight:russula_mianxian"
+    },
+    "title": {
+      "translate": "advancements.not_bad.title"
+    },
+    "description": {
+      "translate": "advancements.not_bad.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "not_bad_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "duacan_delight:russula_mianxian"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "duacan_delight:university_of_mianxian"
+}

@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "duacan_delight:dried_suancai"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 8,
+          "id": "duacan_delight:sliced_suancai"
+        }
+      },
+      {
+        "chance": 0.5,
+        "item": {
+          "count": 2,
+          "id": "duacan_delight:sliced_suancai"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

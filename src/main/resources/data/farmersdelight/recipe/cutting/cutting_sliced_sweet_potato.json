@@ -1,0 +1,25 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "spmreborn:red_potato"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 8,
+          "id": "duacan_delight:sliced_sweet_potato"
+        }
+      },
+      {
+        "item": {
+          "count": 1,
+          "id": "spmreborn:peel"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

@@ -1,0 +1,22 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 1000,
+      "fluid": "duacan_delight:soybean_milk_fluid"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "duacan_delight:tofu"
+  },
+  "stirs": 5,
+  "utensil": {
+    "tag": "c:spoons"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    },
+    {
+      "item": "duacan_delight:gaicai"
+    }
+  ],
+  "result": {
+    "id": "duacan_delight:gaicai_crate",
+    "count": 1
+  }
+}

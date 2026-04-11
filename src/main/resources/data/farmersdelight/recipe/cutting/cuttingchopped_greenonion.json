@@ -1,0 +1,26 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "dumplings_delight:greenonion"
+      }
+    ],
+    "result": [
+      {
+        "item": {
+          "count": 8,
+          "id": "duacan_delight:chopped_greenonion"
+        }
+      },
+      {
+        "chance" : 0.6,
+        "item": {
+          "count": 2,
+          "id": "duacan_delight:chopped_greenonion"
+        }
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knife"
+    }
+  }

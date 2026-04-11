@@ -1,0 +1,31 @@
+{
+  "type": "extradelight:mixing_bowl",
+  "fluids": [
+    {
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "duacan_delight:sliced_pig_liver"
+    },
+    {
+      "item": "duacan_delight:sliced_pig_liver"
+    },
+    {
+      "item": "spmreborn:potato_powder"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "duacan_delight:zhuafen_pig_liver"
+  },
+  "stirs": 10,
+  "utensil": {
+    "tag": "c:spoons"
+  }
+}
