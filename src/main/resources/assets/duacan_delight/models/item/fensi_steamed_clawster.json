@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/fen_si_zheng_long_xia_"
+    "layer0": "duacan_delight:item/fensi_steamed_clawster"
   }
 }

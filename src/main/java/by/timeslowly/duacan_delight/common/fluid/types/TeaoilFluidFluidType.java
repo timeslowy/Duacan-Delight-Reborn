@@ -24,8 +24,8 @@ public final class TeaoilFluidFluidType extends FluidType {
 	@SubscribeEvent
 	public static void registerFluidTypeExtensions(@NotNull RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("duacan_delight:block/jing_zhi_cha_you_");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("duacan_delight:block/liu_dong_cha_you_");
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("duacan_delight:block/fluid/tea_oil/tea_oil");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("duacan_delight:block/fluid/tea_oil/flowing_teaoil");
 
 			@Override
 			public @NotNull ResourceLocation getStillTexture() {

@@ -27,7 +27,7 @@ public class DDTrades {
             event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(DDItems.YIMI.get(), 9), 10, 5, 0.05f));
         }
         if (event.getType() == VillagerProfession.FARMER) {
-            event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(DDItems.LIANZI.get(), 10), 10, 5, 0.05f));
+            event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3), new ItemStack(DDItems.LOTUS_SEEDS.get(), 10), 10, 5, 0.05f));
         }
         if (event.getType() == VillagerProfession.FARMER) {
             event.getTrades().get(5).add(new BasicItemListing(new ItemStack(DDItems.TREMELLA.get(), 3), new ItemStack(Items.EMERALD, 12), 10, 5, 0.05f));

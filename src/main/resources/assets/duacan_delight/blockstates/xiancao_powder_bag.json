@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/xiancao_powder_bag"
+      "model": "duacan_delight:block/bags/xiancao_powder_bag"
     }
   }
 }

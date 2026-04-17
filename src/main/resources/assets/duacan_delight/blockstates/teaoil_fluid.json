@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/teaoil_fluid"
+      "model": "duacan_delight:block/fluids/teaoil_fluid"
     }
   }
 }

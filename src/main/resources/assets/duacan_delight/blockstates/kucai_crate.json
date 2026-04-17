@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/kucai_crate"
+      "model": "duacan_delight:block/crates/kucai_crate"
     }
   }
 }

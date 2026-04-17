@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "duacan_delight:dachangchaosuancai"
+      "id": "duacan_delight:fried_lager_intestine_with_suancai"
     },
     "title": {
       "translate": "advancements.unbelieveabletaste.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "duacan_delight:dachangchaosuancai"
+              "duacan_delight:fried_lager_intestine_with_suancai"
             ],
             "count": {
               "min": 1,

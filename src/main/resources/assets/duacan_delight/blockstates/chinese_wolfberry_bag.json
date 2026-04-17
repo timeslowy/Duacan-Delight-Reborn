@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/chinese_wolfberry_bag"
+      "model": "duacan_delight:block/bags/chinese_wolfberry_bag"
     }
   }
 }

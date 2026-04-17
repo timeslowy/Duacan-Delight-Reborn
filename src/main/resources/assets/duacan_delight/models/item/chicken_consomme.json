@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/qing_tun_ji_tang_"
+    "layer0": "duacan_delight:item/chicken_consomme"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:block/gou_qi_shu_miao_"
+    "layer0": "duacan_delight:block/chinese_wolfberry_treesapling"
   }
 }

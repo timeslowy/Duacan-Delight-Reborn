@@ -29,10 +29,10 @@ public class DDCreativeTabs {
                 tabData.accept(DDItems.CUMA.get());
                 tabData.accept(DDItems.EAJIAN.get());
                 tabData.accept(DDItems.EAJIAN_TOMATO_SAUCE.get());
-                tabData.accept(DDItems.DACHANGCHAOSUANCAI.get());
+                tabData.accept(DDItems.FRIED_LAGER_INTESTINE_WITH_SUANCAI.get());
                 tabData.accept(DDItems.MIDENGGUI.get());
                 tabData.accept(DDItems.CHICKEN_CONSOMME.get());
-                tabData.accept(DDItems.GITENG_MIANXIAN.get());
+                tabData.accept(DDItems.CHICKEN_CONSOMME_MIANXIAN.get());
                 tabData.accept(DDItems.CLAM_TOFU_SOUP.get());
                 tabData.accept(DDItems.GUOJIAO.get());
                 tabData.accept(DDItems.CAOGUO.get());
@@ -85,7 +85,7 @@ public class DDCreativeTabs {
                 tabData.accept(DDBlocks.CHINESE_WOLFBERRY_LEAVES.get().asItem());
                 tabData.accept(DDItems.CHINESE_WOLFBERRY.get());
                 tabData.accept(DDItems.YIMI.get());
-                tabData.accept(DDItems.LIANZI.get());
+                tabData.accept(DDItems.LOTUS_SEEDS.get());
                 tabData.accept(DDItems.CHOPPED_GREENONION.get());
                 tabData.accept(DDItems.SLICED_SWEET_POTATO.get());
                 tabData.accept(DDItems.WETRICE.get());
@@ -130,7 +130,7 @@ public class DDCreativeTabs {
                 tabData.accept(DDBlocks.KUCAI_CRATE.get().asItem());
                 tabData.accept(DDBlocks.OYSTER_BARREL.get().asItem());
                 tabData.accept(DDBlocks.YIMI_BAG.get().asItem());
-                tabData.accept(DDBlocks.LIANZI_BAG.get().asItem());
+                tabData.accept(DDBlocks.LOTUS_SEEDS_BAG.get().asItem());
                 tabData.accept(DDBlocks.CHINESE_WOLFBERRY_BAG.get().asItem());
                 tabData.accept(DDBlocks.BAMBOO_SHOOT_CRATE.get().asItem());
                 tabData.accept(DDBlocks.MONASCUS_BAG.get().asItem());

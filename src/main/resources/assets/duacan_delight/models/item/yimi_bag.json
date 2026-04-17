@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/yimi_bag",
+  "parent": "duacan_delight:block/bags/yimi_bag",
   "display": {
     "thirdperson": {
       "rotation": [

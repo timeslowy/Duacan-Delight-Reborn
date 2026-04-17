@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/hong_gu_mian_xian_"
+    "layer0": "duacan_delight:item/russula_mianxian"
   }
 }

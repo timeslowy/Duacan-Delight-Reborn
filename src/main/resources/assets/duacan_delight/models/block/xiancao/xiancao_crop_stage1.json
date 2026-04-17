@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "duacan_delight:block/xiancao/xiancao_stage_1",
-    "particle": "duacan_delight:block/xiancao/xiancao_stage_1"
-  },
-  "render_type": "cutout"
-}

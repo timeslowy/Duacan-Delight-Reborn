@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/tremella_bag"
+      "model": "duacan_delight:block/bags/tremella_bag"
     }
   }
 }

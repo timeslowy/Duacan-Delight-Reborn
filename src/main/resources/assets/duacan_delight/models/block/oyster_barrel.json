@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "minecraft:block/barrel_bottom",
-    "up": "duacan_delight:block/tong_zhuang_sheng_ci_ding_mian_",
+    "up": "duacan_delight:block/oyster_barrel_up",
     "north": "minecraft:block/barrel_side",
     "east": "minecraft:block/barrel_side",
     "south": "minecraft:block/barrel_side",

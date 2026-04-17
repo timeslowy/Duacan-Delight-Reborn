@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/gai_cai_xie_"
+    "layer0": "duacan_delight:item/gaicai_leaf"
   }
 }

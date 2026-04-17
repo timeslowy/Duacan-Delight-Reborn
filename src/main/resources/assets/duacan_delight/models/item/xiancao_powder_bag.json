@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/xiancao_powder_bag",
+  "parent": "duacan_delight:block/bags/xiancao_powder_bag",
   "display": {
     "thirdperson": {
       "rotation": [

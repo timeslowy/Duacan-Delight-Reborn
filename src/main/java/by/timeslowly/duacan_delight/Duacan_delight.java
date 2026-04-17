@@ -40,7 +40,7 @@ public class Duacan_delight {
 
     }
 
-    private void clientSetup(final FMLClientSetupEvent event) {
+    private void clientSetup(final @NotNull FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
             // Set render type for laver blocks (translucent for transparent textures)
             ItemBlockRenderTypes.setRenderLayer(DDBlocks.LAVER_HEAD.get(), RenderType.translucent());

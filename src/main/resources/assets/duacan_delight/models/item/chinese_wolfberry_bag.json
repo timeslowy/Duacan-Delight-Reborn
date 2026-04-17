@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/chinese_wolfberry_bag",
+  "parent": "duacan_delight:block/bags/chinese_wolfberry_bag",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/kucai_crate",
+  "parent": "duacan_delight:block/crates/kucai_crate",
   "display": {
     "thirdperson": {
       "rotation": [

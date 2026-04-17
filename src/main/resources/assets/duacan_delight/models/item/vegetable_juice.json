@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/ye_cai_zhi_"
+    "layer0": "duacan_delight:item/vegetable_juice"
   }
 }

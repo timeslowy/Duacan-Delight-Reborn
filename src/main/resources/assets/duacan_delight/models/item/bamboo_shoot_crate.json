@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/bamboo_shoot_crate",
+  "parent": "duacan_delight:block/crates/bamboo_shoot_crate",
   "display": {
     "thirdperson": {
       "rotation": [

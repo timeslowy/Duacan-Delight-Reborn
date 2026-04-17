@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "duacan_delight:block/yin_er_"
+    "layer0": "duacan_delight:block/tremella/tremella_stage1"
   }
 }

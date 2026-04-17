@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/bamboo_shoot_crate"
+      "model": "duacan_delight:block/crates/bamboo_shoot_crate"
     }
   }
 }

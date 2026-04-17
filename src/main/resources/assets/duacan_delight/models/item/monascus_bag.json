@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/monascus_bag",
+  "parent": "duacan_delight:block/bags/monascus_bag",
   "display": {
     "thirdperson": {
       "rotation": [

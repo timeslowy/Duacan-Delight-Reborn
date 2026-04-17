@@ -31,14 +31,14 @@ public class DDItems {
     public static final DeferredItem<Item> BEEF_SOUP = REGISTRY.register("beef_soup", MinnanniuroutengItem::new);
     public static final DeferredItem<Item> SLICED_SUANCAI = REGISTRY.register("sliced_suancai", SuancaisiItem::new);
     public static final DeferredItem<Item> PIG_LARGE_INTESTINE = REGISTRY.register("pig_large_intestine", ZhudachangItem::new);
-    public static final DeferredItem<Item> DACHANGCHAOSUANCAI = REGISTRY.register("dachangchaosuancai", DachangchaosuancaiItem::new);
+    public static final DeferredItem<Item> FRIED_LAGER_INTESTINE_WITH_SUANCAI = REGISTRY.register("fried_lager_intestine_with_suancai", FriedLagerIntestineWithSuancaiItem::new);
     public static final DeferredItem<Item> BAMBOO_SHOOT = REGISTRY.register("bamboo_shoot", ZhusunItem::new);
     public static final DeferredItem<Item> SLICED_BAMBOOSHOOT = REGISTRY.register("sliced_bambooshoot", ZhusunpianItem::new);
     public static final DeferredItem<Item> BRAISED_BAMBOOSHOOT_WITH_SUANCAI = REGISTRY.register("braised_bambooshoot_with_suancai", SuancaimensunItem::new);
     public static final DeferredItem<Item> DRIED_SLICED_BAMBOOSHOOT = REGISTRY.register("dried_sliced_bambooshoot", ZhusunganItem::new);
     public static final DeferredItem<Item> SLICED_ZHUJIAO = REGISTRY.register("sliced_zhujiao", SlicedzhujiaoItem::new);
     public static final DeferredItem<Item> YIMI = REGISTRY.register("yimi", YimiItem::new);
-    public static final DeferredItem<Item> LIANZI = REGISTRY.register("lianzi", LianziItem::new);
+    public static final DeferredItem<Item> LOTUS_SEEDS = REGISTRY.register("lotus_seeds", LotusSeedsItem::new);
     public static final DeferredItem<Item> TREMELLA = REGISTRY.register("tremella", YinerItem::new);
     public static final DeferredItem<Item> XIANCAO_POWDER = REGISTRY.register("xiancao_powder", XiancaofenItem::new);
     public static final DeferredItem<Item> XIANCAODONG = REGISTRY.register("xiancaodong", XiancaodongItem::new);
@@ -83,7 +83,7 @@ public class DDItems {
     public static final DeferredItem<Item> WET_MIANXIAN = REGISTRY.register("wet_mianxian", WetMianxianItem::new);
     public static final DeferredItem<Item> CHINESE_WOLFBERRY = REGISTRY.register("chinese_wolfberry", ChineseWolfberryItem::new);
     public static final DeferredItem<Item> CHICKEN_CONSOMME = REGISTRY.register("chicken_consomme", GitengItem::new);
-    public static final DeferredItem<Item> GITENG_MIANXIAN = REGISTRY.register("giteng_mianxian", GitengMianxianItem::new);
+    public static final DeferredItem<Item> CHICKEN_CONSOMME_MIANXIAN = REGISTRY.register("chicken_consomme_mianxian", ChickenConsommeMianxianItem::new);
     public static final DeferredItem<Item> OYSTER = REGISTRY.register("oyster", OysterItem::new);
     public static final DeferredItem<Item> FRIED_GRATED_GARLIC = REGISTRY.register("fried_grated_garlic", FriedGratedGarlicItem::new);
     public static final DeferredItem<Item> MINCED_GARLIC_SAUCE = REGISTRY.register("minced_garlic_sauce", MincedGarlicSauceItem::new);
@@ -136,7 +136,7 @@ public class DDItems {
     public static final DeferredItem<Item> OYSTER_BARREL = block(DDBlocks.OYSTER_BARREL);
     public static final DeferredItem<Item> YIMI_BAG = block(DDBlocks.YIMI_BAG);
     public static final DeferredItem<Item> TREMELLA_BAG = block(DDBlocks.TREMELLA_BAG);
-    public static final DeferredItem<Item> LIANZI_BAG = block(DDBlocks.LIANZI_BAG);
+    public static final DeferredItem<Item> LOTUS_SEEDS_BAG = block(DDBlocks.LOTUS_SEEDS_BAG);
     public static final DeferredItem<Item> KUCAI_CRATE = block(DDBlocks.KUCAI_CRATE);
     public static final DeferredItem<Item> CHINESE_WOLFBERRY_BAG = block(DDBlocks.CHINESE_WOLFBERRY_BAG);
     public static final DeferredItem<Item> BAMBOO_SHOOT_CRATE = block(DDBlocks.BAMBOO_SHOOT_CRATE);

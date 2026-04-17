@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/gaicai_crate",
+  "parent": "duacan_delight:block/crates/gaicai_crate",
   "display": {
     "thirdperson": {
       "rotation": [

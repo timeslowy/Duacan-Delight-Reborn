@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/cha_you_"
+    "layer0": "duacan_delight:item/bottle_of_teaoil"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/yimi_bag"
+      "model": "duacan_delight:block/bags/yimi_bag"
     }
   }
 }

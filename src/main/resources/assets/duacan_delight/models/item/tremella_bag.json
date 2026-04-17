@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/tremella_bag",
+  "parent": "duacan_delight:block/bags/tremella_bag",
   "display": {
     "thirdperson": {
       "rotation": [

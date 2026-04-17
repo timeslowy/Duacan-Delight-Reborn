@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/tie_pi_guan_tou_"
+    "layer0": "duacan_delight:item/iron_can"
   }
 }

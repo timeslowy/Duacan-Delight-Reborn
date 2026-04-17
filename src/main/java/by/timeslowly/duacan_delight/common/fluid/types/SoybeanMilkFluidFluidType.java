@@ -23,8 +23,8 @@ public class SoybeanMilkFluidFluidType extends FluidType {
 	@SubscribeEvent
 	public static void registerFluidTypeExtensions(@NotNull RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("duacan_delight:block/jing_zhi_dou_jiang_");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("duacan_delight:block/liu_dong_dou_jiang_1");
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("duacan_delight:block/fluid/soybean_milk/soybean_milk");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("duacan_delight:block/fluid/soybean_milk/flowing_soybean_milk");
 
 			@Override
 			public @NotNull ResourceLocation getStillTexture() {

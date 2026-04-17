@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "duacan_delight:block/zi_cai_",
-    "particle": "duacan_delight:block/zi_cai_"
-  },
-  "render_type": "cutout"
-}

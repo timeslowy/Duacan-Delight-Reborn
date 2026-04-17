@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "duacan_delight:block/generic/brown_bag_down_surface",
+    "up": "duacan_delight:block/bag/monascus_bag_up",
+    "north": "duacan_delight:block/generic/brown_bag_ns_surface",
+    "east": "duacan_delight:block/generic/brown_bag_ew_surface",
+    "south": "duacan_delight:block/generic/brown_bag_ns_surface",
+    "west": "duacan_delight:block/generic/brown_bag_ew_surface",
+    "particle": "duacan_delight:block/generic/brown_bag_down_surface"
+  },
+  "render_type": "solid"
+}

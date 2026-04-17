@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "duacan_delight:item/sheng_ci_rou_"
+    "layer0": "duacan_delight:item/raw_oyster_meat"
   }
 }

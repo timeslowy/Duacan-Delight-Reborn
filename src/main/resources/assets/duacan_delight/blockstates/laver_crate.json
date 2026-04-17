@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/laver_crate"
+      "model": "duacan_delight:block/crates/laver_crate"
     }
   }
 }

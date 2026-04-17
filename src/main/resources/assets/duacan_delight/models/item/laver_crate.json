@@ -1,5 +1,5 @@
 {
-  "parent": "duacan_delight:block/laver_crate",
+  "parent": "duacan_delight:block/crates/laver_crate",
   "display": {
     "thirdperson": {
       "rotation": [

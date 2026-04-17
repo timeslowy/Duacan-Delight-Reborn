@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "duacan_delight:block/monascus_bag"
+      "model": "duacan_delight:block/bags/monascus_bag"
     }
   }
 }
