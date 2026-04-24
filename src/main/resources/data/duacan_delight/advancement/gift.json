@@ -4,10 +4,10 @@
       "id": "duacan_delight:peanuts_milk"
     },
     "title": {
-      "translate": "advancements.gift.title"
+      "translate": "advancements.duacan_delight.gift.title"
     },
     "description": {
-      "translate": "advancements.gift.descr"
+      "translate": "advancements.duacan_delight.gift.descr"
     },
     "frame": "task",
     "show_toast": true,

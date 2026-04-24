@@ -4,10 +4,10 @@
       "id": "duacan_delight:caoguo"
     },
     "title": {
-      "translate": "advancements.cao.title"
+      "translate": "advancements.duacan_delight.cao.title"
     },
     "description": {
-      "translate": "advancements.cao.descr"
+      "translate": "advancements.duacan_delight.cao.descr"
     },
     "frame": "task",
     "show_toast": true,

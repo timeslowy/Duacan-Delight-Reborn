@@ -4,10 +4,10 @@
       "id": "duacan_delight:midenggui"
     },
     "title": {
-      "translate": "advancements.various_rice_snack.title"
+      "translate": "advancements.duacan_delight.various_rice_snack.title"
     },
     "description": {
-      "translate": "advancements.various_rice_snack.descr"
+      "translate": "advancements.duacan_delight.various_rice_snack.descr"
     },
     "frame": "task",
     "show_toast": true,

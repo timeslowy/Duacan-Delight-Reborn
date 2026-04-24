@@ -4,10 +4,10 @@
       "id": "duacan_delight:xifan"
     },
     "title": {
-      "translate": "advancements.university_of_xifan.title"
+      "translate": "advancements.duacan_delight.university_of_xifan.title"
     },
     "description": {
-      "translate": "advancements.university_of_xifan.descr"
+      "translate": "advancements.duacan_delight.university_of_xifan.descr"
     },
     "frame": "challenge",
     "show_toast": true,

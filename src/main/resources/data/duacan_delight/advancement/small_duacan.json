@@ -4,10 +4,10 @@
       "id": "duacan_delight:godonggui"
     },
     "title": {
-      "translate": "advancements.small_duacan.title"
+      "translate": "advancements.duacan_delight.small_duacan.title"
     },
     "description": {
-      "translate": "advancements.small_duacan.descr"
+      "translate": "advancements.duacan_delight.small_duacan.descr"
     },
     "frame": "challenge",
     "show_toast": true,

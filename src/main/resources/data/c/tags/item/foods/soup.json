@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "duacan_delight:laver_pork_soup",
+        "duacan_delight:pig_liver_soup",
+        "duacan_delight:beef_soup",
+        "duacan_delight:chicken_consomme",
+        "duacan_delight:clam_tofu_soup",
+        "duacan_delight:kelp_tofu_soup",
+        "duacan_delight:laver_egg_soup"
+    ]
+}

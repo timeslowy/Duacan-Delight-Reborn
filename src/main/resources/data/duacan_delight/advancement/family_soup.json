@@ -4,10 +4,10 @@
       "id": "duacan_delight:laver_pork_soup"
     },
     "title": {
-      "translate": "advancements.family_soup.title"
+      "translate": "advancements.duacan_delight.family_soup.title"
     },
     "description": {
-      "translate": "advancements.family_soup.descr"
+      "translate": "advancements.duacan_delight.family_soup.descr"
     },
     "frame": "task",
     "show_toast": true,

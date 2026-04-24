@@ -4,10 +4,10 @@
       "id": "duacan_delight:fensi"
     },
     "title": {
-      "translate": "advancements.gei_fensi.title"
+      "translate": "advancements.duacan_delight.gei_fensi.title"
     },
     "description": {
-      "translate": "advancements.gei_fensi.descr"
+      "translate": "advancements.duacan_delight.gei_fensi.descr"
     },
     "frame": "task",
     "show_toast": true,

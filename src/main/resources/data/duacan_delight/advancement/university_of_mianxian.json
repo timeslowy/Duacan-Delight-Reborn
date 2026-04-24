@@ -4,10 +4,10 @@
       "id": "duacan_delight:mianxian"
     },
     "title": {
-      "translate": "advancements.university_of_mianxian.title"
+      "translate": "advancements.duacan_delight.university_of_mianxian.title"
     },
     "description": {
-      "translate": "advancements.university_of_mianxian.descr"
+      "translate": "advancements.duacan_delight.university_of_mianxian.descr"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "duacan_delight:wuling_roast_rabbit"
     },
     "title": {
-      "translate": "advancements.only_rabbit.title"
+      "translate": "advancements.duacan_delight.only_rabbit.title"
     },
     "description": {
-      "translate": "advancements.only_rabbit.descr"
+      "translate": "advancements.duacan_delight.only_rabbit.descr"
     },
     "frame": "task",
     "show_toast": true,

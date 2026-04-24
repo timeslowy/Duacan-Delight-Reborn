@@ -4,10 +4,10 @@
       "id": "duacan_delight:pig_liver_soup"
     },
     "title": {
-      "translate": "advancements.da_bu.title"
+      "translate": "advancements.duacan_delight.da_bu.title"
     },
     "description": {
-      "translate": "advancements.da_bu.descr"
+      "translate": "advancements.duacan_delight.da_bu.descr"
     },
     "frame": "task",
     "show_toast": true,

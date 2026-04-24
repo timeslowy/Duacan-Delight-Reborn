@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "duacan_delight:lianzi_bag"
+      "item": "duacan_delight:lotus_seeds_bag"
     }
   ],
   "result": {
-    "id": "duacan_delight:lianzi",
+    "id": "duacan_delight:lotus_seeds",
     "count": 9
   }
 }

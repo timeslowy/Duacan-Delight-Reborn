@@ -29,8 +29,8 @@ public class FriedLagerIntestineWithSuancaiItem extends Item {
 	@Override
 	public void appendHoverText(@NotNull ItemStack itemstack, Item.@NotNull TooltipContext context, @NotNull List<Component> list, @NotNull TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.translatable("item.duacan_delight.dachangchaosuancai.description_0"));
-		list.add(Component.translatable("item.duacan_delight.dachangchaosuancai.description_1"));
-		list.add(Component.translatable("item.duacan_delight.dachangchaosuancai.description_2"));
+		list.add(Component.translatable("item.duacan_delight.fried_lager_intestine_with_suancai.description_0"));
+		list.add(Component.translatable("item.duacan_delight.fried_lager_intestine_with_suancai.description_1"));
+		list.add(Component.translatable("item.duacan_delight.fried_lager_intestine_with_suancai.description_2"));
 	}
 }

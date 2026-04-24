@@ -4,10 +4,10 @@
       "id": "duacan_delight:xiancaodong"
     },
     "title": {
-      "translate": "advancements.smooth_q.title"
+      "translate": "advancements.duacan_delight.smooth_q.title"
     },
     "description": {
-      "translate": "advancements.smooth_q.descr"
+      "translate": "advancements.duacan_delight.smooth_q.descr"
     },
     "frame": "task",
     "show_toast": true,

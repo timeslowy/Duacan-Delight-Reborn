@@ -4,10 +4,10 @@
       "id": "duacan_delight:braised_bambooshoot_with_suancai"
     },
     "title": {
-      "translate": "advancements.gowellwithrice.title"
+      "translate": "advancements.duacan_delight.gowellwithrice.title"
     },
     "description": {
-      "translate": "advancements.gowellwithrice.descr"
+      "translate": "advancements.duacan_delight.gowellwithrice.descr"
     },
     "frame": "task",
     "show_toast": true,

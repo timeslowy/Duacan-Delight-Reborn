@@ -4,10 +4,10 @@
       "id": "duacan_delight:rousongxifan"
     },
     "title": {
-      "translate": "advancements.rousongxifan_1.title"
+      "translate": "advancements.duacan_delight.rousongxifan_1.title"
     },
     "description": {
-      "translate": "advancements.rousongxifan_1.descr"
+      "translate": "advancements.duacan_delight.rousongxifan_1.descr"
     },
     "frame": "task",
     "show_toast": true,

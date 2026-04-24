@@ -4,10 +4,10 @@
       "id": "duacan_delight:xifan"
     },
     "title": {
-      "translate": "advancements.wetrice_1.title"
+      "translate": "advancements.duacan_delight.wetrice_1.title"
     },
     "description": {
-      "translate": "advancements.wetrice_1.descr"
+      "translate": "advancements.duacan_delight.wetrice_1.descr"
     },
     "frame": "task",
     "show_toast": true,

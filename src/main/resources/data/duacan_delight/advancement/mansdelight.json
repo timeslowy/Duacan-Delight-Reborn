@@ -4,10 +4,10 @@
       "id": "duacan_delight:zhujioaganfan"
     },
     "title": {
-      "translate": "advancements.mansdelight.title"
+      "translate": "advancements.duacan_delight.mansdelight.title"
     },
     "description": {
-      "translate": "advancements.mansdelight.descr"
+      "translate": "advancements.duacan_delight.mansdelight.descr"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "duacan_delight:eajian"
     },
     "title": {
-      "translate": "advancements.top_in_hokkien.title"
+      "translate": "advancements.duacan_delight.top_in_hokkien.title"
     },
     "description": {
-      "translate": "advancements.top_in_hokkien.descr"
+      "translate": "advancements.duacan_delight.top_in_hokkien.descr"
     },
     "frame": "task",
     "show_toast": true,

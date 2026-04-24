@@ -9,8 +9,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class DDBlocks {
     public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(Duacan_delight.MOD_ID);
 
-    // TODO:此处需要按照首字母顺序排序
-
     public static final DeferredBlock<Block> GAICAI_CRATE = REGISTRY.register("gaicai_crate", JiecaicrateBlock::new);
     public static final DeferredBlock<Block> TREMELLA_CROP = REGISTRY.register("tremella_crop", TremellaCropBlock::new);
     public static final DeferredBlock<Block> XIANCAO_CROP = REGISTRY.register("xiancao_crop", XiancaoCropBlock::new);

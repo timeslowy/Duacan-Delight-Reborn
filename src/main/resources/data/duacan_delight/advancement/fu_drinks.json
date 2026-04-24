@@ -4,10 +4,10 @@
       "id": "duacan_delight:siguoteng"
     },
     "title": {
-      "translate": "advancements.fu_drinks.title"
+      "translate": "advancements.duacan_delight.fu_drinks.title"
     },
     "description": {
-      "translate": "advancements.fu_drinks.descr"
+      "translate": "advancements.duacan_delight.fu_drinks.descr"
     },
     "frame": "challenge",
     "show_toast": true,

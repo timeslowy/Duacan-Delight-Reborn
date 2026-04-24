@@ -4,10 +4,10 @@
       "id": "duacan_delight:smallintestine_tofu_soup"
     },
     "title": {
-      "translate": "advancements.warm_stomach.title"
+      "translate": "advancements.duacan_delight.warm_stomach.title"
     },
     "description": {
-      "translate": "advancements.warm_stomach.descr"
+      "translate": "advancements.duacan_delight.warm_stomach.descr"
     },
     "frame": "task",
     "show_toast": true,

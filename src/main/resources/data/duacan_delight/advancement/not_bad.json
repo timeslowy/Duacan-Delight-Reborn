@@ -4,10 +4,10 @@
       "id": "duacan_delight:russula_mianxian"
     },
     "title": {
-      "translate": "advancements.not_bad.title"
+      "translate": "advancements.duacan_delight.not_bad.title"
     },
     "description": {
-      "translate": "advancements.not_bad.descr"
+      "translate": "advancements.duacan_delight.not_bad.descr"
     },
     "frame": "task",
     "show_toast": true,

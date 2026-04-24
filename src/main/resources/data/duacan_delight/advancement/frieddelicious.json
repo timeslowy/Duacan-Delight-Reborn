@@ -4,10 +4,10 @@
       "id": "duacan_delight:youzha"
     },
     "title": {
-      "translate": "advancements.frieddelicious.title"
+      "translate": "advancements.duacan_delight.frieddelicious.title"
     },
     "description": {
-      "translate": "advancements.frieddelicious.descr"
+      "translate": "advancements.duacan_delight.frieddelicious.descr"
     },
     "frame": "task",
     "show_toast": true,

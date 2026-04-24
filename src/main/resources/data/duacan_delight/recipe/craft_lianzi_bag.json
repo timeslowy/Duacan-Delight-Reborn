@@ -3,35 +3,35 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     },
     {
-      "item": "duacan_delight:lianzi"
+      "item": "duacan_delight:lotus_seeds"
     }
   ],
   "result": {
-    "id": "duacan_delight:lianzi_bag",
+    "id": "duacan_delight:lotus_seeds_bag",
     "count": 1
   }
 }

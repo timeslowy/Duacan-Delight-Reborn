@@ -4,10 +4,10 @@
       "id": "duacan_delight:cuma"
     },
     "title": {
-      "translate": "advancements.minnan_taste.title"
+      "translate": "advancements.duacan_delight.minnan_taste.title"
     },
     "description": {
-      "translate": "advancements.minnan_taste.descr"
+      "translate": "advancements.duacan_delight.minnan_taste.descr"
     },
     "frame": "challenge",
     "show_toast": true,

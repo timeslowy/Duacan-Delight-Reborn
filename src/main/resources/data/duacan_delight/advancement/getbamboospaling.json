@@ -4,10 +4,10 @@
       "id": "duacan_delight:bamboo_shoot"
     },
     "title": {
-      "translate": "advancements.getbamboospaling.title"
+      "translate": "advancements.duacan_delight.getbamboospaling.title"
     },
     "description": {
-      "translate": "advancements.getbamboospaling.descr"
+      "translate": "advancements.duacan_delight.getbamboospaling.descr"
     },
     "frame": "task",
     "show_toast": true,

@@ -4,10 +4,10 @@
       "id": "duacan_delight:oil_cut_wheat_tea"
     },
     "title": {
-      "translate": "advancements.better_choice_summer.title"
+      "translate": "advancements.duacan_delight.better_choice_summer.title"
     },
     "description": {
-      "translate": "advancements.better_choice_summer.descr"
+      "translate": "advancements.duacan_delight.better_choice_summer.descr"
     },
     "frame": "task",
     "show_toast": true,

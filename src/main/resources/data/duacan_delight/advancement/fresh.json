@@ -4,10 +4,10 @@
       "id": "duacan_delight:chicken_consomme"
     },
     "title": {
-      "translate": "advancements.fresh.title"
+      "translate": "advancements.duacan_delight.fresh.title"
     },
     "description": {
-      "translate": "advancements.fresh.descr"
+      "translate": "advancements.duacan_delight.fresh.descr"
     },
     "frame": "task",
     "show_toast": true,

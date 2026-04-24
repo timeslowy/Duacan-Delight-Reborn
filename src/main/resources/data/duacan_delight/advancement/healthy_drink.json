@@ -4,10 +4,10 @@
       "id": "duacan_delight:vegetable_juice"
     },
     "title": {
-      "translate": "advancements.healthy_drink.title"
+      "translate": "advancements.duacan_delight.healthy_drink.title"
     },
     "description": {
-      "translate": "advancements.healthy_drink.descr"
+      "translate": "advancements.duacan_delight.healthy_drink.descr"
     },
     "frame": "task",
     "show_toast": true,
