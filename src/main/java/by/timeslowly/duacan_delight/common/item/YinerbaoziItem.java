@@ -5,10 +5,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
@@ -17,9 +14,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class YinerbaoziItem extends Item {
+public class YinerbaoziItem extends ItemNameBlockItem {
 	public YinerbaoziItem() {
-		super(new Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(DDBlocks.TREMELLA_CROP.get() ,new Item.Properties());
 	}
 
 	@Override

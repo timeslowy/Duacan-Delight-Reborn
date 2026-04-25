@@ -17,7 +17,7 @@
       "type": "NONE",
       "effects": [],
       "ingredient": {
-        "item": "casualness_delight:capsicum"
+        "item": "casualnessdelight:capsicum"
       },
       "max_time": 300,
       "min_time": 60,

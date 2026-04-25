@@ -33,6 +33,5 @@ public class SiguotengItem extends Item {
 		list.add(Component.translatable("item.duacan_delight.siguoteng.description_0"));
 		list.add(Component.translatable("item.duacan_delight.siguoteng.description_1"));
 		list.add(Component.translatable("item.duacan_delight.siguoteng.description_2"));
-		list.add(Component.translatable("item.duacan_delight.siguoteng.description_3"));
 	}
 }

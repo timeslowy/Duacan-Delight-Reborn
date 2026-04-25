@@ -1,5 +1,6 @@
 {
-    "type": "casualness_delight:deep_frying",
+    "type": "casualnessdelight:deep_frying",
+    "category": "food",
     "ingredient": [
       {
         "item": "farmersdelight:bacon"

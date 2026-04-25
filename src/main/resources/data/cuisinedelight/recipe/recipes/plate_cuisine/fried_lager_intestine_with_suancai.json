@@ -41,7 +41,7 @@
       {
         "bonus": 0.1,
         "ingredient": {
-          "item": "casualness_delight:capsicum"
+          "item": "casualnessdelight:capsicum"
         },
         "max": 1.8,
         "min": 0.2,

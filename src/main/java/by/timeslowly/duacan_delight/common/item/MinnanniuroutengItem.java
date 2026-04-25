@@ -29,8 +29,6 @@ public class MinnanniuroutengItem extends Item {
 	@Override
 	public void appendHoverText(@NotNull ItemStack itemstack, Item.@NotNull TooltipContext context, @NotNull List<Component> list, @NotNull TooltipFlag flag) {
 		super.appendHoverText(itemstack, context, list, flag);
-		list.add(Component.translatable("item.duacan_delight.beef_soup.description_0"));
 		list.add(Component.translatable("item.duacan_delight.beef_soup.description_1"));
-		list.add(Component.translatable("item.duacan_delight.beef_soup.description_2"));
 	}
 }

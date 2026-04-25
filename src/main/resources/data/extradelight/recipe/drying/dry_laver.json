@@ -3,7 +3,7 @@
     "cookingtime": 2000,
     "experience": 10.0,
     "ingredient": {
-      "item": "duacan_delight:laver"
+      "item": "duacan_delight:laver_head"
     },
     "result": {
       "count": 1,
