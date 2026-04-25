@@ -81,7 +81,7 @@ public class DDItems {
     public static final DeferredItem<Item> KUCAI_SEEDS = REGISTRY.register("kucai_seeds", () -> new ItemNameBlockItem(DDBlocks.KUCAI_CROP.get(), new Item.Properties()));
     public static final DeferredItem<Item> TREMELLA = REGISTRY.register("tremella", () -> new Item(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<Item> DRIED_LAVER = REGISTRY.register("dried_laver", () -> new Item(COMMON_PROPS));
-    public static final DeferredItem<Item> TREMELLA_SPORE = REGISTRY.register("tremella_spore", YinerbaoziItem::new);
+    public static final DeferredItem<Item> TREMELLA_SPORE = REGISTRY.register("tremella_spore", TremellaSporeItem::new);
     public static final DeferredItem<Item> ADAZI = REGISTRY.register("adazi", AdaziItem::new);
     public static final DeferredItem<Item> CHINESE_WOLFBERRY = REGISTRY.register("chinese_wolfberry", () -> new Item(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<Item> YIMI = REGISTRY.register("yimi", () -> new Item(COMMON_PROPS));

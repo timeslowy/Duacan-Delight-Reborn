@@ -1,0 +1,26 @@
+{
+  "type": "duacan_delight:tremella_spore_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/woodland_mansion"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+        }
+      ]
+    }
+  ],
+  "item_id": "duacan_delight:tremella_spore",
+  "min_count": 2,
+  "max_count": 5,
+  "probability": 0.18
+}

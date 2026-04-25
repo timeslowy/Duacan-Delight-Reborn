@@ -14,8 +14,8 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class YinerbaoziItem extends ItemNameBlockItem {
-	public YinerbaoziItem() {
+public class TremellaSporeItem extends ItemNameBlockItem {
+	public TremellaSporeItem() {
 		super(DDBlocks.TREMELLA_CROP.get() ,new Item.Properties());
 	}
 

@@ -1,5 +1,6 @@
 package by.timeslowly.duacan_delight;
 
+import by.timeslowly.duacan_delight.common.world.VillageCropModifier;
 import by.timeslowly.duacan_delight.registry.*;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -7,6 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.common.NeoForge;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
@@ -30,9 +32,13 @@ public class Duacan_delight {
         DDFluids.REGISTRY.register(modEventBus);
         DDFluidTypes.REGISTRY.register(modEventBus);
         DDFeatures.REGISTRY.register(modEventBus);
+        DDLootModifiers.REGISTRY.register(modEventBus);
 
         // Register client setup
         modEventBus.addListener(this::clientSetup);
+
+        // 注册服务器启动事件，用于向村庄农田注入自定义作物
+        NeoForge.EVENT_BUS.addListener(VillageCropModifier::onServerAboutToStart);
 
         // modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in.
