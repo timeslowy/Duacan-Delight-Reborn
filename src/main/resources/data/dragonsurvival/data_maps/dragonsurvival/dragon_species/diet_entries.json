@@ -1,0 +1,98 @@
+{
+  "replace": false,
+  "values": {
+    "dragonsurvival:forest_dragon": {
+      "replace": false,
+      "value": [
+        {
+          "items": "duacan_delight:i_grass_juice_bucket",
+          "properties": {
+            "nutrition": 2,
+            "saturation": 2,
+            "can_always_eat": true,
+            "eat_seconds": 1,
+            "using_converts_to": {
+              "id": "minecraft:bucket"
+            }
+          }
+        },
+        {
+          "items": "duacan_delight:oil_cut_wheat_tea",
+          "properties": {
+            "nutrition": 4,
+            "saturation": 2,
+            "can_always_eat": true,
+            "eat_seconds": 1,
+            "effects": [
+              {
+                "effect": {
+                  "id": "farmersdelight:comfort",
+                  "amplifier": 0,
+                  "duration": 1200,
+                  "ambient": true,
+                  "show_particles": true,
+                  "show_icon": true
+                },
+                "probability": 1
+              }
+            ],
+            "using_converts_to": {
+              "id": "minecraft:bucket"
+            }
+          }
+        },
+        {
+          "items": "duacan_delight:vegetable_juice",
+          "properties": {
+            "nutrition": 4,
+            "saturation": 4,
+            "can_always_eat": true,
+            "eat_seconds": 1,
+            "effects": [
+              {
+                "effect": {
+                  "id": "minecraft:absorption",
+                  "amplifier": 0,
+                  "duration": 600,
+                  "ambient": true,
+                  "show_particles": true,
+                  "show_icon": true
+                },
+                "probability": 1
+              }
+            ],
+            "using_converts_to": {
+              "id": "minecraft:bucket"
+            }
+          }
+        }
+      ]
+    },
+    "dragonsurvival:sea_dragon": {
+      "replace": false,
+      "value": [
+        {
+          "items": "duacan_delight:laver_head",
+          "properties": {
+            "nutrition": 1,
+            "saturation": 1,
+            "can_always_eat": false,
+            "eat_seconds": 1
+          }
+        },
+        {
+          "items": "duacan_delight:oyster",
+          "properties": {
+            "nutrition": 6,
+            "saturation": 5,
+            "can_always_eat": false,
+            "eat_seconds": 3,
+            "using_converts_to": {
+              "id": "minecraft:bone_meal"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

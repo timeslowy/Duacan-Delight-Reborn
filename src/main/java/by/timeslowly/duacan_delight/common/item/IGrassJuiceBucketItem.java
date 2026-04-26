@@ -25,6 +25,7 @@ public class IGrassJuiceBucketItem extends Item {
 						.nutrition(1)
 						.saturationModifier(0f)
 						.usingConvertsTo(Items.BUCKET)
+						.effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0), 1.0f)
 						.alwaysEdible()
 						.build())
 				.craftRemainder(Items.BUCKET));
@@ -41,15 +42,4 @@ public class IGrassJuiceBucketItem extends Item {
 		list.add(Component.translatable("item.duacan_delight.i_grass_juice_bucket.description_0"));
 	}
 
-	@Override
-	public @NotNull ItemStack finishUsingItem(@NotNull ItemStack itemstack, @NotNull Level world, @NotNull LivingEntity entity) {
-		super.finishUsingItem(itemstack, world, entity);
-		// Apply effect: Nausea for 30 seconds if not already has Absorption
-		if (!(entity instanceof LivingEntity livingEntity && livingEntity.hasEffect(MobEffects.ABSORPTION))) {
-			if (entity instanceof LivingEntity livingEntity && !livingEntity.level().isClientSide()) {
-				livingEntity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0));
-			}
-		}
-        return itemstack;
-    }
 }

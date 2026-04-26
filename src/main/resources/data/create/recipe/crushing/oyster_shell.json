@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "duacandelight:oyster_shell"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.5,
+      "id": "minecraft:white_dye"
+    }
+  ]
+}
