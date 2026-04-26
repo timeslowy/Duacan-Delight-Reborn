@@ -34,8 +34,6 @@ public class Duacan_delight {
         DDFeatures.REGISTRY.register(modEventBus);
         DDLootModifiers.REGISTRY.register(modEventBus);
 
-        // Register client setup
-        modEventBus.addListener(this::clientSetup);
 
         // 注册服务器启动事件，用于向村庄农田注入自定义作物
         NeoForge.EVENT_BUS.addListener(VillageCropModifier::onServerAboutToStart);
@@ -46,12 +44,5 @@ public class Duacan_delight {
 
     }
 
-    private void clientSetup(final @NotNull FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
-            // Set render type for laver blocks (translucent for transparent textures)
-            ItemBlockRenderTypes.setRenderLayer(DDBlocks.LAVER_HEAD.get(), RenderType.translucent());
-            ItemBlockRenderTypes.setRenderLayer(DDBlocks.LAVER.get(), RenderType.translucent());
-        });
-    }
 
 }

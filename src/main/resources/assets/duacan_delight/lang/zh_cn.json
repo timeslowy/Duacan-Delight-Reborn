@@ -307,5 +307,7 @@
   "cuisine.duacan_delight.fujian": "闽菜",
   "cuisine.duacan_delight.fujian_drink": "福建饮品",
   "cuisine.duacan_delight.hakkas": "客家菜",
-  "cuisine.duacan_delight.southern_fujian": "闽南菜"
+  "cuisine.duacan_delight.southern_fujian": "闽南菜",
+  
+  "fml.menu.mods.info.description.duacan_delight": "这是一个农夫乐事的拓展模组，将福建大田的特色美食及一些闽南地方菜、闽菜及少部分其他菜系加入了 Minecraft 当中！"
 }

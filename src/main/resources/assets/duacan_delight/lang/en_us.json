@@ -307,5 +307,7 @@
   "cuisine.duacan_delight.fujian": "Fujian Cuisine",
   "cuisine.duacan_delight.fujian_drink": "Fujian Drink",
   "cuisine.duacan_delight.hakkas": "Hakkas Cuisine",
-  "cuisine.duacan_delight.southern_fujian": "Southern Fujian Cuisine"
+  "cuisine.duacan_delight.southern_fujian": "Southern Fujian Cuisine",
+  
+  "fml.menu.mods.info.description.duacan_delight": "A Farmers' Delight Addon, added some dishes from Fujian Provience, China."
 }
