@@ -8,8 +8,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
-public class YinerBagBlock extends Block {
-	public YinerBagBlock() {
+public class TremellaBagBlock extends Block {
+	public TremellaBagBlock() {
 		super(Properties.of().sound(SoundType.WOOL).strength(1f, 10f));
 	}
 

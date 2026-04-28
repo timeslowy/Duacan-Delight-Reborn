@@ -20,12 +20,12 @@ public class VillageCropModifier {
         // 创建替换规则：30% 几率将小麦替换成盖菜，20% 几率将土豆替换成盖菜
         StructureProcessor gaicaiProcessor = new RuleProcessor(List.of(
                 new ProcessorRule(
-                        new RandomBlockMatchTest(Blocks.WHEAT, 0.3F),
+                        new RandomBlockMatchTest(Blocks.WHEAT, 0.6F),
                         AlwaysTrueTest.INSTANCE,
                         DDBlocks.GAICAI_CROP.get().defaultBlockState()
                 ),
                 new ProcessorRule(
-                        new RandomBlockMatchTest(Blocks.POTATOES, 0.2F),
+                        new RandomBlockMatchTest(Blocks.POTATOES, 0.3F),
                         AlwaysTrueTest.INSTANCE,
                         DDBlocks.GAICAI_CROP.get().defaultBlockState()
                 )

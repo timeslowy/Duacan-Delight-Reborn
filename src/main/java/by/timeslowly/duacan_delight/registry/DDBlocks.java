@@ -21,7 +21,7 @@ public class DDBlocks {
     public static final DeferredBlock<Block> LAVER_CRATE = REGISTRY.register("laver_crate", LaverCrateBlock::new);
     public static final DeferredBlock<Block> OYSTER_BARREL = REGISTRY.register("oyster_barrel", OysterBarrelBlock::new);
     public static final DeferredBlock<Block> YIMI_BAG = REGISTRY.register("yimi_bag", YimiBagBlock::new);
-    public static final DeferredBlock<Block> TREMELLA_BAG = REGISTRY.register("tremella_bag", YinerBagBlock::new);
+    public static final DeferredBlock<Block> TREMELLA_BAG = REGISTRY.register("tremella_bag", TremellaBagBlock::new);
     public static final DeferredBlock<Block> LOTUS_SEEDS_BAG = REGISTRY.register("lotus_seeds_bag", LotusSeedsBagBlock::new);
     public static final DeferredBlock<Block> KUCAI_CRATE = REGISTRY.register("kucai_crate", KucaiCrateBlock::new);
     public static final DeferredBlock<Block> CHINESE_WOLFBERRY_BAG = REGISTRY.register("chinese_wolfberry_bag", ChineseWolfberryBagBlock::new);

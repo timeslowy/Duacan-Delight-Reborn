@@ -2,7 +2,7 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "duacandelight:oyster_shell"
+      "item": "duacan_delight:oyster_shell"
     }
   ],
   "processing_time": 150,
