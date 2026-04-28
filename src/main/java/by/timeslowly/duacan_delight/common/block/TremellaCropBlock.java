@@ -2,10 +2,13 @@ package by.timeslowly.duacan_delight.common.block;
 
 import by.timeslowly.duacan_delight.registry.DDItems;
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LightLayer;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -15,6 +18,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.neoforged.neoforge.common.CommonHooks;
 import org.jetbrains.annotations.NotNull;
 
 public class TremellaCropBlock extends CropBlock {
@@ -59,6 +63,21 @@ public class TremellaCropBlock extends CropBlock {
 	@Override
 	public boolean canSurvive(@NotNull BlockState state, @NotNull LevelReader level, @NotNull BlockPos pos) {
 		return mayPlaceOn(level.getBlockState(pos.below()), level, pos.below());
+	}
+
+	@Override
+	public void randomTick(@NotNull BlockState state, @NotNull ServerLevel level, @NotNull BlockPos pos, @NotNull RandomSource random) {
+		if (!level.isAreaLoaded(pos, 1)) return;
+		if (level.getBrightness(LightLayer.SKY, pos) < 8 && level.getBrightness(LightLayer.BLOCK, pos) < 8) {
+			int i = this.getAge(state);
+			if (i < this.getMaxAge()) {
+				float f = getGrowthSpeed(state, level, pos);
+				if (CommonHooks.canCropGrow(level, pos, state, random.nextInt((int)(25.0F / f) + 1) == 0)) {
+					level.setBlock(pos, this.getStateForAge(i + 1), 2);
+					CommonHooks.fireCropGrowPost(level, pos, state);
+				}
+			}
+		}
 	}
 
 	@Override
