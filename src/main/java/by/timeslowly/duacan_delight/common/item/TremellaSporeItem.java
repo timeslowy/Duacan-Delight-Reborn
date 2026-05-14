@@ -5,6 +5,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
@@ -47,13 +48,21 @@ public class TremellaSporeItem extends ItemNameBlockItem {
 			return InteractionResult.FAIL;
 		}
 
-		if (!level.isClientSide()) {
-			level.setBlock(above, DDBlocks.TREMELLA_CROP.get().defaultBlockState(), 3);
-            if (context.getPlayer() != null) {
-                context.getPlayer().getInventory().clearOrCountMatchingItems(
-                        p -> p.getItem() == this, 1, context.getPlayer().inventoryMenu.getCraftSlots());
-            }
-        }
+		// 客户端提前通过，等待服务端同步实际的放置结果
+		if (level.isClientSide()) {
+			return InteractionResult.SUCCESS;
+		}
+
+		// 放置失败（如被其他模组取消）则不消耗物品，防止物品凭空消失
+		if (!level.setBlock(above, DDBlocks.TREMELLA_CROP.get().defaultBlockState(), 3)) {
+			return InteractionResult.FAIL;
+		}
+
+		// 使用标准 shrink 精确消耗手部物品；创造模式玩家免消耗
+		Player player = context.getPlayer();
+		if (player != null && !player.getAbilities().instabuild) {
+			context.getItemInHand().shrink(1);
+		}
 		return InteractionResult.SUCCESS;
 	}
 }

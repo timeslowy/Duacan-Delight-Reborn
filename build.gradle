@@ -116,9 +116,9 @@ repositories {
 
 dependencies {
     // 农夫乐事
-    implementation "curse.maven:farmers-delight-398521:7801529"
+    implementation "curse.maven:farmers-delight-398521:8007613"
     // 额外乐事
-    implementation "curse.maven:extradelight-842106:7321020"
+    implementation "curse.maven:extradelight-842106:8035753"
 
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

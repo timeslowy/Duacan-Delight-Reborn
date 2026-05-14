@@ -43,13 +43,12 @@ public class RiceWineItem extends Item {
 
 	@Override
 	public @NotNull ItemStack finishUsingItem(@NotNull ItemStack itemstack, @NotNull Level world, @NotNull LivingEntity entity) {
-		// Apply effect: Slowness for 30 seconds, stacking if already present
-		if (entity instanceof LivingEntity livingEntity && !livingEntity.level().isClientSide()) {
-			if (livingEntity.hasEffect(MobEffects.MOVEMENT_SLOWDOWN)) {
-				int currentAmplifier = Objects.requireNonNull(livingEntity.getEffect(MobEffects.MOVEMENT_SLOWDOWN)).getAmplifier();
-				livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, currentAmplifier + 1));
+		if (!world.isClientSide()) {
+			if (entity.hasEffect(MobEffects.MOVEMENT_SLOWDOWN)) {
+				int currentAmplifier = Objects.requireNonNull(entity.getEffect(MobEffects.MOVEMENT_SLOWDOWN)).getAmplifier();
+				entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, currentAmplifier + 1));
 			} else {
-				livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 0));
+				entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 0));
 			}
 		}
 		return super.finishUsingItem(itemstack, world, entity);
