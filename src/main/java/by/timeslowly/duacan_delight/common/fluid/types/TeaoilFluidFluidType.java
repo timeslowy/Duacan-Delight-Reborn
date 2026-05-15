@@ -15,7 +15,7 @@ import net.neoforged.neoforge.fluids.FluidType;
 import org.jetbrains.annotations.NotNull;
 
 @EventBusSubscriber(modid = Duacan_delight.MOD_ID)
-public final class TeaoilFluidFluidType extends FluidType {
+public class TeaoilFluidFluidType extends FluidType {
 	public TeaoilFluidFluidType() {
 		super(Properties.create().canSwim(false).canDrown(false).pathType(PathType.LAVA).adjacentPathType(null).motionScale(0.007D).viscosity(1100).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
 				.sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
