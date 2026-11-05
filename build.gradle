@@ -2,15 +2,11 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'idea'
-    id 'net.neoforged.moddev' version '2.0.141'
+    id 'net.neoforged.moddev' version '2.0.148'
 }
 
 version = mod_version
 group = mod_group_id
-
-repositories {
-    mavenLocal()
-}
 
 base {
     archivesName = mod_id
@@ -105,10 +101,27 @@ sourceSets {
 
 repositories {
     mavenLocal()
-    maven {
-        url "https://cursemaven.com"
-        content {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "CurseMaven"
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
             includeGroup "curse.maven"
+        }
+    }
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        // forRepositories(fg.repository) // Uncomment when using ForgeGradle
+        filter {
+            includeGroup "maven.modrinth"
         }
     }
 }
@@ -116,9 +129,29 @@ repositories {
 
 dependencies {
     // 农夫乐事
-    implementation "curse.maven:farmers-delight-398521:8007613"
+    implementation "curse.maven:farmers-delight-398521:8765184"
     // 额外乐事
-    implementation "curse.maven:extradelight-842106:8035753"
+    implementation "curse.maven:extradelight-842106:8261063"
+    // 料理乐事
+    runtimeOnly "curse.maven:cuisine-delight-893541:8214238"
+    // 烤地瓜：重生
+    runtimeOnly "maven.modrinth:42Oytc0x:G0AQopNd"
+    // 茶风·纪事·追叙
+    runtimeOnly "curse.maven:tea-the-story-recount-1088855:6842115"
+    // 扩充乐事
+    runtimeOnly "curse.maven:expanded-delight-620770:7441587"
+    // 饺子乐事：重包
+    runtimeOnly "curse.maven:dumplings-delight-rewrapped-1093375:8091613"
+    // 屠宰工艺
+    runtimeOnly "curse.maven:butchercraft-265715:7777338"
+    // 烧烤乐事
+    runtimeOnly "curse.maven:barbeques-delight-1007788:8004721"
+    // 蟹农乐事
+    runtimeOnly "curse.maven:crabbers-delight-892827:8996449"
+    // 随意乐事暂缺
+
+    // Architectury API
+    runtimeOnly "maven.modrinth:lhGA9TYQ:1IiqEQGl"
 
     // Example mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
