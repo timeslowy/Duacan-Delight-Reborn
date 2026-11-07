@@ -99,6 +99,7 @@ public class DDItems {
     public static final DeferredItem<Item> WET_MIANXIAN = REGISTRY.register("wet_mianxian", () -> new Item(COMMON_PROPS));
     public static final DeferredItem<Item> MIANXIAN = REGISTRY.register("mianxian", () -> new TooltipItem(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON), "item.duacan_delight.mianxian.description_0"));
     public static final DeferredItem<Item> XIANCAO_POWDER = REGISTRY.register("xiancao_powder", () -> new Item(COMMON_PROPS));
+    public static final DeferredItem<Item> SOYBEAN_POWDER = REGISTRY.register("soybean_powder", () -> new Item(COMMON_PROPS));
     public static final DeferredItem<Item> RAW_CAOGUO = REGISTRY.register("raw_caoguo", () -> new Item(COMMON_PROPS));
     public static final DeferredItem<Item> BAMBOO_SHOOT = REGISTRY.register("bamboo_shoot", () -> new Item(COMMON_PROPS));
     public static final DeferredItem<Item> SLICED_BAMBOOSHOOT = REGISTRY.register("sliced_bambooshoot", () -> new Item(COMMON_PROPS));
@@ -141,7 +142,7 @@ public class DDItems {
     }
 
     public static final DeferredItem<Item> GAICAI_CRATE = block(DDBlocks.GAICAI_CRATE);
-    public static final DeferredItem<Item> LAVER = block(DDBlocks.LAVER_HEAD);
+    public static final DeferredItem<Item> LAVER_HEAD = block(DDBlocks.LAVER_HEAD);
     public static final DeferredItem<Item> LAVER_CRATE = block(DDBlocks.LAVER_CRATE);
     public static final DeferredItem<Item> OYSTER_BARREL = block(DDBlocks.OYSTER_BARREL);
     public static final DeferredItem<Item> YIMI_BAG = block(DDBlocks.YIMI_BAG);

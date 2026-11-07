@@ -16,10 +16,12 @@ out/
 
 # Other
 .workbuddy
-.plan
+plan
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Common working directory
 run
+# 专用服务器调试目录（独立于 run/，避免加载客户端模组）
+run-server

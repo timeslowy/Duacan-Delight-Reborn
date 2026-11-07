@@ -34,6 +34,10 @@ neoForge {
         server {
             server()
             programArgument '--nogui'
+            // 专用服务器使用独立目录：run/ 下放着 sodium、jei 等纯客户端模组，
+            // 直接复用会在 ImmediateWindowHandler 阶段因 ClassNotFoundException: org.lwjgl.Version 崩溃。
+            // run-server/ 只放必需依赖（农夫乐事、额外乐事），与服务端真实环境一致。
+            gameDirectory = project.file('run-server')
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 

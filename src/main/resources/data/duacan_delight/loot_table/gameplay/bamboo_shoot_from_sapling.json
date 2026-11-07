@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "duacan_delight:bamboo_shoot"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "duacan_delight:gameplay/bamboo_shoot_from_sapling"
+}

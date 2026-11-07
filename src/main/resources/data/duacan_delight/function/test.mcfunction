@@ -1,1 +1,0 @@
-give @s netherite_axe[minecraft:enchantments={"minecraft:knockback":10,sharpness:10}]

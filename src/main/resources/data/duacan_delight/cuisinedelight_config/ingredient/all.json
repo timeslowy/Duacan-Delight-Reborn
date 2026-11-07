@@ -17,7 +17,7 @@
       "type": "NONE",
       "effects": [],
       "ingredient": {
-        "item": "casualnessdelight:capsicum"
+        "tag": "c:crops/chili"
       },
       "max_time": 300,
       "min_time": 60,

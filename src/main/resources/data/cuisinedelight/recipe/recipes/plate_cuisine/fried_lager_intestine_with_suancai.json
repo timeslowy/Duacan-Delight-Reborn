@@ -41,7 +41,7 @@
       {
         "bonus": 0.1,
         "ingredient": {
-          "item": "casualnessdelight:capsicum"
+          "tag": "c:crops/chili"
         },
         "max": 1.8,
         "min": 0.2,

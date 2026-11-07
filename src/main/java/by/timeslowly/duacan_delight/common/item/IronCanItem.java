@@ -30,9 +30,20 @@ public class IronCanItem extends Item {
 	@Override
 	public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level world, @NotNull Player player, @NotNull InteractionHand hand) {
 		ItemStack heldItem = player.getItemInHand(hand);
-		heldItem.shrink(1);
+		// 只由服务端产生副作用：客户端仅返回成功让动画播放，
+		// 否则客户端的预测性 shrink/发放会在服务端同步时造成物品回滚或幽灵物品。
+		if (world.isClientSide()) {
+			return InteractionResultHolder.success(heldItem);
+		}
+
+		// 创造模式不消耗铁罐，但仍返回产物，保持和开罐动画一致的反馈
+		if (!player.getAbilities().instabuild) {
+			heldItem.shrink(1);
+		}
+
+		// giveItemToPlayer 在背包放不下时会自动把剩余部分掉落在玩家脚下，不会丢失物品
 		ItemHandlerHelper.giveItemToPlayer(player, new ItemStack(DDItems.OPENED_IRON_CAN.get()));
 		ItemHandlerHelper.giveItemToPlayer(player, new ItemStack(Items.IRON_NUGGET));
-		return InteractionResultHolder.sidedSuccess(heldItem, world.isClientSide());
+		return InteractionResultHolder.success(heldItem);
 	}
 }

@@ -89,7 +89,7 @@ public class LaverBlock extends GrowingPlantBodyBlock implements LiquidBlockCont
 
 	@Override
 	public @NotNull ItemStack getCloneItemStack(@NotNull LevelReader level, @NotNull BlockPos pos, @NotNull BlockState state) {
-		return new ItemStack(DDItems.LAVER.get());
+		return new ItemStack(DDItems.LAVER_HEAD.get());
 	}
 
 	@Override

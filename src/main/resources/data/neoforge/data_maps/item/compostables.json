@@ -12,7 +12,7 @@
     "duacan_delight:suancai": {
       "chance": 0.85
     },
-    "duacan_delight:cassia_seeds": {
+    "duacan_delight:cassia_seed": {
       "chance": 0.3
     },
     "duacan_delight:chinese_wolfberry": {
@@ -21,13 +21,16 @@
     "duacan_delight:chinese_wolfberry_leaves": {
       "chance": 0.3
     },
+    "duacan_delight:chinese_wolfberry_treesapling": {
+      "chance": 0.3
+    },
     "duacan_delight:sliced_sweet_potato": {
       "chance": 0.4
     },
     "duacan_delight:kucai_seeds": {
       "chance": 0.3
     },
-    "duacan_delight:laver": {
+    "duacan_delight:laver_head": {
       "chance": 0.3
     }
   }

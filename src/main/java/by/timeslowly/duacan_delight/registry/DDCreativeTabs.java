@@ -96,6 +96,7 @@ public class DDCreativeTabs {
                 tabData.accept(DDItems.WET_MIANXIAN.get());
                 tabData.accept(DDItems.MIANXIAN.get());
                 tabData.accept(DDItems.XIANCAO_POWDER.get());
+                tabData.accept(DDItems.SOYBEAN_POWDER.get());
                 tabData.accept(DDItems.RAW_CAOGUO.get());
                 tabData.accept(DDItems.BAMBOO_SHOOT.get());
                 tabData.accept(DDItems.SLICED_BAMBOOSHOOT.get());
