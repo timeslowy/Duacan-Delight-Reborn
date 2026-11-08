@@ -14,6 +14,18 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+// 显式固定源码与资源编码为 UTF-8，避免在非 UTF-8 默认编码的机器上
+// 把中文注释、lang 文件里的 CJK 文本读成乱码。
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+tasks.withType(ProcessResources).configureEach {
+    filteringCharset = 'UTF-8'
+}
+tasks.withType(Javadoc).configureEach {
+    options.encoding = 'UTF-8'
+}
+
 neoForge {
     // Specify the version of NeoForge to use.
     version = project.neo_version
