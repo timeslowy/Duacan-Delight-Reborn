@@ -1,6 +1,6 @@
 package by.timeslowly.duacan_delight.client.event;
 
-import by.timeslowly.duacan_delight.Duacan_delight;
+import by.timeslowly.duacan_delight.DuacanDelight;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -19,7 +19,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-@EventBusSubscriber(modid = Duacan_delight.MOD_ID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = DuacanDelight.MOD_ID, value = Dist.CLIENT)
 public class CuisineTooltipHandler {
 
     private static final Map<TagKey<Item>, Style> CUISINE_TAGS = new LinkedHashMap<>();
@@ -35,7 +35,7 @@ public class CuisineTooltipHandler {
     private static void registerCuisine(String name, ChatFormatting color) {
         CUISINE_TAGS.put(
                 TagKey.create(Registries.ITEM,
-                        ResourceLocation.fromNamespaceAndPath(Duacan_delight.MOD_ID, "foods/cuisine/" + name)),
+                        ResourceLocation.fromNamespaceAndPath(DuacanDelight.MOD_ID, "foods/cuisine/" + name)),
                 Style.EMPTY.withColor(color)
         );
     }
@@ -67,7 +67,7 @@ public class CuisineTooltipHandler {
 
         // 在物品名称后（index 1）插入菜系提示
         Component cuisineText = Component.translatable(
-                "cuisine." + Duacan_delight.MOD_ID + "." + cuisineName
+                "cuisine." + DuacanDelight.MOD_ID + "." + cuisineName
         ).withStyle(cuisineStyle);
         tooltip.add(1, cuisineText);
     }

@@ -1,6 +1,6 @@
 package by.timeslowly.duacan_delight.registry;
 
-import by.timeslowly.duacan_delight.Duacan_delight;
+import by.timeslowly.duacan_delight.DuacanDelight;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -10,7 +10,7 @@ import net.neoforged.neoforge.common.BasicItemListing;
 import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import org.jetbrains.annotations.NotNull;
 
-@EventBusSubscriber(modid = Duacan_delight.MOD_ID)
+@EventBusSubscriber(modid = DuacanDelight.MOD_ID)
 public class DDTrades {
     @SubscribeEvent
     public static void registerTrades(@NotNull VillagerTradesEvent event) {

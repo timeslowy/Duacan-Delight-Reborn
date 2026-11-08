@@ -1,4 +1,4 @@
-package by.timeslowly.duacan_delight.world.features;
+package by.timeslowly.duacan_delight.worldgen.feature;
 
 import by.timeslowly.duacan_delight.registry.DDBlocks;
 import com.mojang.serialization.Codec;

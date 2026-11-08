@@ -1,6 +1,6 @@
 package by.timeslowly.duacan_delight.registry;
 
-import by.timeslowly.duacan_delight.Duacan_delight;
+import by.timeslowly.duacan_delight.DuacanDelight;
 import by.timeslowly.duacan_delight.common.item.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -14,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 
 public class DDItems {
-    public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems( Duacan_delight.MOD_ID);
+    public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems( DuacanDelight.MOD_ID);
 
     // 通用辅助方法
     private static final Item.Properties COMMON_PROPS = new Item.Properties().stacksTo(64).rarity(Rarity.COMMON);
@@ -26,7 +26,9 @@ public class DDItems {
     public static final DeferredItem<Item> SMALLINTESTINE_TOFU_SOUP = REGISTRY.register("smallintestine_tofu_soup", () -> new TooltipItem(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).alwaysEdible().usingConvertsTo(Items.BOWL).build()), "item.duacan_delight.smallintestine_tofu_soup.description_1"));
     public static final DeferredItem<Item> WULING_ROAST_RABBIT = REGISTRY.register("wuling_roast_rabbit", () -> new TooltipItem(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(16).saturationModifier(0.8f).effect(() -> new MobEffectInstance(MobEffects.JUMP, 1200, 1), 1.0f).build()), "item.duacan_delight.wuling_roast_rabbit.description_1"));
     public static final DeferredItem<Item> SMALLINTESTINE_KUCAI_SOUP = REGISTRY.register("smallintestine_kucai_soup", () -> new TooltipItem(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(8).saturationModifier(0.5f).alwaysEdible().usingConvertsTo(Items.BOWL).build()), "item.duacan_delight.smallintestine_kucai_soup.description_1"));
-    public static final DeferredItem<Item> ZHUJIOAGANFAN = REGISTRY.register("zhujioaganfan", ZhujioaganfanItem::new);
+    // 注意：注册 ID 历史上就拼作 "zhujioaganfan"，为保护已有存档保持不变；
+    // 仅 Java 字段名按正确拼音修正为 ZHUJIAOGANFAN。
+    public static final DeferredItem<Item> ZHUJIAOGANFAN = REGISTRY.register("zhujioaganfan", ZhujiaoganfanItem::new);
     public static final DeferredItem<Item> XIANFAN = REGISTRY.register("xianfan", () -> new TooltipItem(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(16).saturationModifier(0.8f).usingConvertsTo(Items.BOWL).effect(() -> new MobEffectInstance(MobEffects.HEAL, 2, 0), 1.0f).build()), "item.duacan_delight.xianfan.description_1"));
     public static final DeferredItem<Item> LAVER_PORK_SOUP = REGISTRY.register("laver_pork_soup", () -> new TooltipItem(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(6).saturationModifier(0.8f).alwaysEdible().usingConvertsTo(Items.BOWL).build()), "item.duacan_delight.laver_pork_soup.description_1"));
     public static final DeferredItem<Item> PIG_LIVER_SOUP = REGISTRY.register("pig_liver_soup", () -> new TooltipItem(new Item.Properties().stacksTo(16).rarity(Rarity.COMMON).food(new FoodProperties.Builder().nutrition(8).saturationModifier(0.4f).usingConvertsTo(Items.BOWL).build()), "item.duacan_delight.pig_liver_soup.description_1"));

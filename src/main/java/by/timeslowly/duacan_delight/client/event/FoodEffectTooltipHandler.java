@@ -1,6 +1,6 @@
 package by.timeslowly.duacan_delight.client.event;
 
-import by.timeslowly.duacan_delight.Duacan_delight;
+import by.timeslowly.duacan_delight.DuacanDelight;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 import java.util.Set;
 
-@EventBusSubscriber(modid = Duacan_delight.MOD_ID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = DuacanDelight.MOD_ID, value = Dist.CLIENT)
 public class FoodEffectTooltipHandler {
 
     // 原版用于高级提示信息的已知翻译键（仅当高级提示框开启时出现）
@@ -41,7 +41,7 @@ public class FoodEffectTooltipHandler {
         if (stack.isEmpty()) return;
 
         // 仅处理本模组的物品
-        if (!BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace().equals(Duacan_delight.MOD_ID)) {
+        if (!BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace().equals(DuacanDelight.MOD_ID)) {
             return;
         }
 

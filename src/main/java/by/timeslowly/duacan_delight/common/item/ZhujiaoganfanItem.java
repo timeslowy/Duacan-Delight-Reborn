@@ -6,8 +6,8 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 
-public class ZhujioaganfanItem extends TooltipFoodItem {
-	public ZhujioaganfanItem() {
+public class ZhujiaoganfanItem extends TooltipFoodItem {
+	public ZhujiaoganfanItem() {
 		super(new Properties()
 				.stacksTo(16)
 				.rarity(Rarity.UNCOMMON)

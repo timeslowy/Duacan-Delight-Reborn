@@ -1,6 +1,6 @@
 package by.timeslowly.duacan_delight.registry;
 
-import by.timeslowly.duacan_delight.Duacan_delight;
+import by.timeslowly.duacan_delight.DuacanDelight;
 import by.timeslowly.duacan_delight.common.block.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
@@ -15,7 +15,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
 
 public class DDBlocks {
-    public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(Duacan_delight.MOD_ID);
+    public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(DuacanDelight.MOD_ID);
 
     // Crate（木板箱）和 Bag（布袋）的属性必须每次新建。
     // Block.Properties 的 setter（noOcclusion / requiresCorrectToolForDrops / isRedstoneConductor 等）
