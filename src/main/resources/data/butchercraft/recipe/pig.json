@@ -1,5 +1,11 @@
 {
-  "type": "butchercraft:meat_hook",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "butchercraft"
+    }
+  ],
+"type": "butchercraft:meat_hook",
   "carcass": {
     "item": "butchercraft:pig_carcass"
   },

@@ -63,3 +63,54 @@ type = "required"
 versionRange = "${extradelight_version_range}"
 ordering = "AFTER"
 side = "BOTH"
+# ---- 可选集成模组 ----
+# 以下模组均为「装了就加载对应配方/数据，没装则跳过」的可选兼容项。
+# 本模组对它们的 recipe/data 已统一加 neoforge:mod_loaded 条件；
+# 战利品表与标签不支持条件化，缺失时会在日志留下一条可忽略的告警。
+[[dependencies."${mod_id}"]]
+modId = "cuisinedelight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "barbequesdelight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "butchercraft"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "crabbersdelight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "create"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "casualness_delight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "dragonsurvival"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "dumplings_delight"
+type = "optional"
+ordering = "AFTER"
+side = "BOTH"

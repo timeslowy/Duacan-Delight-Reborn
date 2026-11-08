@@ -1,5 +1,11 @@
 {
-  "type": "barbequesdelight:grilling",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "barbequesdelight"
+    }
+  ],
+"type": "barbequesdelight:grilling",
   "barbecuingTime": 1000,
   "ingredient": {
     "item": "duacan_delight:raw_minced_garlic_oyster"
