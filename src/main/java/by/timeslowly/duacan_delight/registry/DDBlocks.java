@@ -7,6 +7,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -57,4 +58,12 @@ public class DDBlocks {
     public static final DeferredBlock<Block> CHINESE_WOLFBERRY_LEAVES = REGISTRY.register("chinese_wolfberry_leaves", ChineseWolfberryLeavesBlock::new);
     public static final DeferredBlock<Block> CHINESE_WOLFBERRY_TREESAPLING = REGISTRY.register("chinese_wolfberry_treesapling", ChineseWolfberryTreesaplingBlock::new);
 
+    // 工作方块：炸锅（移植自停更的随意乐事）。
+    // 属性与农夫乐事煎锅保持一致（金属质感、低强度、灯笼音效），
+    // 每次新建 Properties 实例，避免 setter 原地修改污染其他方块。
+    public static final DeferredBlock<Block> DEEP_FRYING_PAN = REGISTRY.register("deep_frying_pan",
+            () -> new DeepFryingPanBlock(Block.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .strength(0.5F, 6.0F)
+                    .sound(SoundType.LANTERN)));
 }

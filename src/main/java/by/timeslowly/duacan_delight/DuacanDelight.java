@@ -22,11 +22,16 @@ public class DuacanDelight {
         // 所有注册均通过 DeferredRegister，在 mod 事件总线上排队，待适当的注册事件触发时批量处理
         DDItems.REGISTRY.register(modEventBus);
         DDBlocks.REGISTRY.register(modEventBus);
+        DDBlockEntityTypes.REGISTRY.register(modEventBus);
         DDCreativeTabs.REGISTRY.register(modEventBus);
         DDFluids.REGISTRY.register(modEventBus);
         DDFluidTypes.REGISTRY.register(modEventBus);
         DDFeatures.REGISTRY.register(modEventBus);
         DDLootModifiers.REGISTRY.register(modEventBus);
+        DDLootFunctions.REGISTRY.register(modEventBus);
+        DDRecipeTypes.REGISTRY.register(modEventBus);
+        DDRecipeSerializers.REGISTRY.register(modEventBus);
+        DDMenuTypes.REGISTRY.register(modEventBus);
     }
 
 }

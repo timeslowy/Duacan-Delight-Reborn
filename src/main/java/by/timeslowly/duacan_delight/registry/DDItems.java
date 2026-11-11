@@ -153,6 +153,8 @@ public class DDItems {
     public static final DeferredItem<Item> KUCAI_CRATE = block(DDBlocks.KUCAI_CRATE);
     public static final DeferredItem<Item> CHINESE_WOLFBERRY_BAG = block(DDBlocks.CHINESE_WOLFBERRY_BAG);
     public static final DeferredItem<Item> BAMBOO_SHOOT_CRATE = block(DDBlocks.BAMBOO_SHOOT_CRATE);
+    // 工作方块：炸锅。掉落时由 copy_deep_frying_pan 战利品函数保留方块实体里记录的数据。
+    public static final DeferredItem<Item> DEEP_FRYING_PAN = block(DDBlocks.DEEP_FRYING_PAN);
     public static final DeferredItem<Item> MONASCUS_BAG = block(DDBlocks.MONASCUS_BAG);
     public static final DeferredItem<Item> XIANCAO_POWDER_BAG = block(DDBlocks.XIANCAO_POWDER_BAG);
     public static final DeferredItem<Item> CHINESE_WOLFBERRY_LEAVES = block(DDBlocks.CHINESE_WOLFBERRY_LEAVES);

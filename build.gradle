@@ -117,6 +117,11 @@ sourceSets {
 
 repositories {
     mavenLocal()
+    // JEI 的 API 与完整模组发布在 BlameJared 的仓库，作为 CurseMaven / Modrinth 之外的前置来源
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
     exclusiveContent {
         forRepository {
             maven {
@@ -165,6 +170,11 @@ dependencies {
     // 蟹农乐事
     runtimeOnly "curse.maven:crabbers-delight-892827:8996449"
     // 随意乐事暂缺
+
+    // JEI：炸锅的“油炸”配方分类是客户端展示，编译期只需 API，运行期需要完整模组
+    compileOnly "mezz.jei:jei-1.21.1-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:${jei_version}"
+    runtimeOnly "mezz.jei:jei-1.21.1-neoforge:${jei_version}"
 
     // Architectury API
     runtimeOnly "maven.modrinth:lhGA9TYQ:1IiqEQGl"

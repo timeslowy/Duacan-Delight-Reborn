@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "duacan_delight:blocks/deep_frying_pan",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "duacan_delight:deep_frying_pan",
+          "functions": [
+            {
+              "function": "duacan_delight:copy_deep_frying_pan"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

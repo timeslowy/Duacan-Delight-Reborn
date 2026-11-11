@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "S": {
+      "item": "minecraft:iron_bars"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "bSb",
+    "iWi",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "duacan_delight:deep_frying_pan"
+  }
+}

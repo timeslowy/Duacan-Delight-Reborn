@@ -21,7 +21,7 @@ import java.util.function.Supplier;
  *     <li>成品菜肴（汤羹、面食、米饭、小吃等）</li>
  *     <li>生食材与半成品（肉类、蔬菜、米粉面条、调味料等）</li>
  *     <li>种植物（种子、茎、叶片）</li>
- *     <li>工具与容器（铁罐、筷子、油瓶、桶）</li>
+ *     <li>工具与容器（铁罐、筷子、油瓶、桶、炸锅等工作方块）</li>
  *     <li>装饰性存储方块（箱子、袋子、树苗、叶子）</li>
  * </ol>
  */
@@ -145,6 +145,7 @@ public final class DDCreativeTabOrder {
             DDItems.I_GRASS_JUICE_BUCKET,
             DDItems.SOYBEAN_MILK_FLUID_BUCKET,
             DDItems.TEAOIL_FLUID_BUCKET,
+            DDItems.DEEP_FRYING_PAN,
             DDBlocks.LAVER_CRATE::asItem,
             DDBlocks.GAICAI_CRATE::asItem,
             DDBlocks.KUCAI_CRATE::asItem,

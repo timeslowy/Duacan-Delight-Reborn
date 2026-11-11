@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,support=false": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan"
+    },
+    "facing=east,support=false": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan",
+      "y": 90
+    },
+    "facing=south,support=false": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan",
+      "y": 180
+    },
+    "facing=west,support=false": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan",
+      "y": 270
+    },
+    "facing=north,support=true": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan_tray"
+    },
+    "facing=east,support=true": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan_tray",
+      "y": 90
+    },
+    "facing=south,support=true": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan_tray",
+      "y": 180
+    },
+    "facing=west,support=true": {
+      "model": "duacan_delight:block/deep_frying_pan/deep_frying_pan_tray",
+      "y": 270
+    }
+  }
+}
